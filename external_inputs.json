@@ -1,0 +1,62 @@
+[
+  {
+    "workspace_path": "results/spe10_model2_singlephase/permeability.npy",
+    "bytes": 26928128,
+    "sha256": "594c95056731ccb038aa1d08cdd203494da793eaae30b76d8c472535337fd69f",
+    "included": false
+  },
+  {
+    "workspace_path": "results/spe10_model2_dynamic/porosity.npy",
+    "bytes": 8976128,
+    "sha256": "3e4c3256706f68a6eb293d9c13a7db52d1270d5e44c363af07f337456b5cbd35",
+    "included": false
+  },
+  {
+    "workspace_path": "results/brugge_validation_v2/inputs.npz",
+    "bytes": 5725844,
+    "sha256": "99eee54452a7ae9be26391d8abc6e5cc8d00401d24a61929412eca9d9ed43013",
+    "included": false
+  },
+  {
+    "workspace_path": "results/spe10_model2_dynamic/component_lump_1_1_c512/snapshot_000520.04.npz.lz4",
+    "bytes": 50283084,
+    "sha256": "10dc798be46d2da0b903fc9d181b63d42b081de53ae5df598bf4501a3ed1d46c",
+    "included": false
+  },
+  {
+    "workspace_path": "results/spe10_model2_dynamic/component_lump_1_1_c512/snapshot_002000.00.npz.lz4",
+    "bytes": 51783066,
+    "sha256": "f10742d091545af0826887b5e74b803e7a6e08850e0904aee3e152ac17f86364",
+    "included": false
+  },
+  {
+    "workspace_path": "results/brugge_validation_v2/runs/candidate/snapshots/snapshot_day_00000.00.npz",
+    "bytes": 4397810,
+    "sha256": "de2020596623a5f704fc14b9476e0150c32d1c13cb71dd864f4fc849e5d22004",
+    "included": false
+  },
+  {
+    "workspace_path": "results/brugge_validation_v2/runs/candidate/snapshots/snapshot_day_01000.00.npz",
+    "bytes": 4397810,
+    "sha256": "0c9cd7bdfeb0a3d2e010fae1b0a38807e7c1c5b772109098eda5a21217b06189",
+    "included": false
+  },
+  {
+    "workspace_path": "results/brugge_validation_v2/runs/candidate/snapshots/snapshot_day_02000.00.npz",
+    "bytes": 4397810,
+    "sha256": "709d11d7eb0eacfd99e7b3ba442f3e22b45c6a93bd00cf477159b3856a584dc0",
+    "included": false
+  },
+  {
+    "workspace_path": "results/paper_revision_v18/data/spe10_sections.npz",
+    "bytes": 1685586,
+    "sha256": "08f0a3f72e8fb695ef1345ee3a0fa02f902e6f2d16a70a038789ae1bb0677b73",
+    "included": false
+  },
+  {
+    "workspace_path": "results/paper_revision_v18/data/brugge_geometry.npz",
+    "bytes": 2565984,
+    "sha256": "84669141055a64889423372b1c6e467956f6c289062ba0ef305176d2c29bd805",
+    "included": false
+  }
+]

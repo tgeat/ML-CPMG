@@ -1,0 +1,11 @@
+{
+  "cores": 64,
+  "totalcores": 64,
+  "pairs": 56,
+  "totalpairs": 56,
+  "planted_cold_wins": 3,
+  "planted_speed_ratio_range": [
+    0.910149572308126,
+    2.275663546056011
+  ]
+}

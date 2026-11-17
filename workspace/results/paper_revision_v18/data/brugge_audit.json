@@ -1,0 +1,19 @@
+{
+  "active_cells": 43474,
+  "edge_count": 122543,
+  "nnc_logical_nonadjacent": 152,
+  "nnc_edge_types": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 152
+  },
+  "pressure_state_day": 0,
+  "pressure_range": [
+    3.1800725537871144,
+    55.3824152107994
+  ],
+  "coordinate_units": "m",
+  "geometry": "source COORD/ZCORN with MAPAXES, exact active ordering",
+  "edges": "positive transmissibility graph, L1 logical distance != 1"
+}

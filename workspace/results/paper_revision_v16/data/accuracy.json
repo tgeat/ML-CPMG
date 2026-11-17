@@ -1,0 +1,1062 @@
+[
+  {
+    "case": "SPE10-static",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 1.8378082487543746e-11,
+    "flux_relative_upper": 1.8378082432592025e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.0827757666430596e-09,
+      "norm_upper": 1.0828384588347181e-09,
+      "max_abs_upper": 1.3226131786016924e-10,
+      "rho_upper": 1.0505076097728615e-10,
+      "eta_upper": 1.3226131786016927e-10
+    }
+  },
+  {
+    "case": "SPE10-static",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 1.4405307238242951e-11,
+    "flux_relative_upper": 1.4405307360998446e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.1167546727260742e-09,
+      "norm_upper": 1.1168201587545261e-09,
+      "max_abs_upper": 9.025514702032549e-11,
+      "rho_upper": 1.0834747010943057e-10,
+      "eta_upper": 9.02551470203255e-11
+    }
+  },
+  {
+    "case": "SPE10-static",
+    "method": "Single-median",
+    "pressure_relative_upper": 1.757113480307356e-11,
+    "flux_relative_upper": 1.7571134639850964e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.0568756400894257e-09,
+      "norm_upper": 1.0569420718431642e-09,
+      "max_abs_upper": 7.321733496486421e-11,
+      "rho_upper": 1.0253844241505794e-10,
+      "eta_upper": 7.321733496486422e-11
+    }
+  },
+  {
+    "case": "SPE10-static",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 1.0447927645436517e-11,
+    "flux_relative_upper": 1.04479271341281e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 5.5816230290784e-10,
+      "norm_upper": 5.582260810539e-10,
+      "max_abs_upper": 4.476233547531938e-11,
+      "rho_upper": 5.415588459536918e-11,
+      "eta_upper": 4.476233547531939e-11
+    }
+  },
+  {
+    "case": "SPE10-static",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 2.1626930470958974e-12,
+    "flux_relative_upper": 2.162693181278898e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 4.70381384789807e-10,
+      "norm_upper": 4.70406065979725e-10,
+      "max_abs_upper": 2.2056796204232833e-10,
+      "rho_upper": 4.563609169615244e-11,
+      "eta_upper": 2.2056796204232835e-10
+    }
+  },
+  {
+    "case": "SPE10-static",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 1.2785175108375218e-11,
+    "flux_relative_upper": 1.2785175323688332e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 8.614174420775332e-10,
+      "norm_upper": 8.614620440739817e-10,
+      "max_abs_upper": 1.5198548960998577e-10,
+      "rho_upper": 8.357409412702942e-11,
+      "eta_upper": 1.519854896099858e-10
+    }
+  },
+  {
+    "case": "SPE10-static",
+    "complete_case": true
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 1.4047702233513385e-13,
+    "flux_relative_upper": 1.4052496273662952e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.417269682811063e-22,
+      "norm_upper": 2.438366698281376e-15,
+      "max_abs_upper": 1.0758330322858611e-16,
+      "rho_upper": 1.1034788015355547e-13,
+      "eta_upper": 4.4066121002428877e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 1.406311427951139e-13,
+    "flux_relative_upper": 1.4063819210971308e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.300480148635771e-21,
+      "norm_upper": 2.437365059688304e-15,
+      "max_abs_upper": 1.129487043625131e-16,
+      "rho_upper": 1.1030255116530142e-13,
+      "eta_upper": 4.626378930688538e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "method": "Single-median",
+    "pressure_relative_upper": 1.4057865251022275e-13,
+    "flux_relative_upper": 1.4058964470313818e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.2829284375530239e-21,
+      "norm_upper": 2.438395697389832e-15,
+      "max_abs_upper": 1.061936193397842e-16,
+      "rho_upper": 1.1034919250339471e-13,
+      "eta_upper": 4.349690648157561e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 1.4056046702478077e-13,
+    "flux_relative_upper": 1.4057391234729373e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.2880662449332522e-22,
+      "norm_upper": 2.4356432940776706e-15,
+      "max_abs_upper": 1.0758330322858611e-16,
+      "rho_upper": 1.1022463294841116e-13,
+      "eta_upper": 4.4066121002428877e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 1.405920199565047e-13,
+    "flux_relative_upper": 1.406009004884095e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.8652584343608645e-22,
+      "norm_upper": 2.4384812793269848e-15,
+      "max_abs_upper": 1.1148398429469858e-16,
+      "rho_upper": 1.1035306549975366e-13,
+      "eta_upper": 4.566383996710855e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 1.405743493639e-13,
+    "flux_relative_upper": 1.405851682698323e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.6164623867829228e-22,
+      "norm_upper": 2.4348817903583664e-15,
+      "max_abs_upper": 1.0758330322858611e-16,
+      "rho_upper": 1.1019017122400625e-13,
+      "eta_upper": 4.4066121002428877e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "complete_case": true
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 1.44757778766068e-13,
+    "flux_relative_upper": 1.4480450037326755e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 8.853308485531492e-21,
+      "norm_upper": 3.601408931584964e-15,
+      "max_abs_upper": 2.7167027641067103e-16,
+      "rho_upper": 1.6298116335274152e-13,
+      "eta_upper": 1.1127614521781087e-12
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 1.4511069122519925e-13,
+    "flux_relative_upper": 1.451136414799705e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.1812781004627458e-22,
+      "norm_upper": 3.586412075984835e-15,
+      "max_abs_upper": 2.756852695406487e-16,
+      "rho_upper": 1.623024831420867e-13,
+      "eta_upper": 1.1292068640384974e-12
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "method": "Single-median",
+    "pressure_relative_upper": 1.45054033363486e-13,
+    "flux_relative_upper": 1.4505741548055547e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 9.229300802885438e-22,
+      "norm_upper": 3.581393912134265e-15,
+      "max_abs_upper": 2.5832965893116986e-16,
+      "rho_upper": 1.6207538697006146e-13,
+      "eta_upper": 1.058118282982072e-12
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 1.4506012267807798e-13,
+    "flux_relative_upper": 1.4506367853559934e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 0.0,
+      "norm_upper": 3.59596624519896e-15,
+      "max_abs_upper": 2.7568526954064877e-16,
+      "rho_upper": 1.6273485548384736e-13,
+      "eta_upper": 1.1292068640384976e-12
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 1.449663073474024e-13,
+    "flux_relative_upper": 1.449711557464506e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 4.6916806046057196e-21,
+      "norm_upper": 3.5977547921713e-15,
+      "max_abs_upper": 2.652348317095678e-16,
+      "rho_upper": 1.6281579588017572e-13,
+      "eta_upper": 1.08640187068239e-12
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 1.4542063232462748e-13,
+    "flux_relative_upper": 1.4542250042374748e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.6178814384476136e-20,
+      "norm_upper": 3.5942446889535095e-15,
+      "max_abs_upper": 2.756852695406487e-16,
+      "rho_upper": 1.626569467417437e-13,
+      "eta_upper": 1.1292068640384974e-12
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "complete_case": true
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 5.8005077227976e-14,
+    "flux_relative_upper": 5.805106066968806e-14,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 8.733354297451394e-21,
+      "norm_upper": 1.045370930278052e-15,
+      "max_abs_upper": 2.032879073410321e-17,
+      "rho_upper": 4.7308087914602064e-14,
+      "eta_upper": 8.326672684688677e-14
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 5.808224072169397e-14,
+    "flux_relative_upper": 5.809522368680267e-14,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.4124952316025877e-19,
+      "norm_upper": 1.0449153252656512e-15,
+      "max_abs_upper": 2.039705594113957e-17,
+      "rho_upper": 4.728746958539784e-14,
+      "eta_upper": 8.354634113490769e-14
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "method": "Single-median",
+    "pressure_relative_upper": 5.807532503255507e-14,
+    "flux_relative_upper": 5.808888967206388e-14,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 5.25585804393182e-20,
+      "norm_upper": 1.0446524348245781e-15,
+      "max_abs_upper": 2.0247475571166798e-17,
+      "rho_upper": 4.727557252212779e-14,
+      "eta_upper": 8.293365993949922e-14
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 5.808293799912033e-14,
+    "flux_relative_upper": 5.809536647981495e-14,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.7042327640790296e-19,
+      "norm_upper": 1.0454938493134658e-15,
+      "max_abs_upper": 2.032879073410321e-17,
+      "rho_upper": 4.731365059514473e-14,
+      "eta_upper": 8.326672684688677e-14
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 5.807898248184392e-14,
+    "flux_relative_upper": 5.80921885707297e-14,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.4553909074835634e-20,
+      "norm_upper": 1.0447341122495707e-15,
+      "max_abs_upper": 2.032879073410321e-17,
+      "rho_upper": 4.72792688204371e-14,
+      "eta_upper": 8.326672684688677e-14
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 5.807173195329973e-14,
+    "flux_relative_upper": 5.808617750230703e-14,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.650240267293463e-20,
+      "norm_upper": 1.0451703064235825e-15,
+      "max_abs_upper": 2.0310863010224278e-17,
+      "rho_upper": 4.729900871537228e-14,
+      "eta_upper": 8.319329488987866e-14
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "complete_case": true
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 1.7792096629168897e-09,
+    "flux_relative_upper": 1.7792097105867966e-09,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.6731181943570003e-12,
+      "norm_upper": 1.6770260089998061e-12,
+      "max_abs_upper": 2.219393612196627e-13,
+      "rho_upper": 7.589353364526284e-11,
+      "eta_upper": 9.090636235557385e-10
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 1.780039980325958e-09,
+    "flux_relative_upper": 1.7800399801378092e-09,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.806946156915992e-23,
+      "norm_upper": 2.9429703377488613e-15,
+      "max_abs_upper": 2.1048839985461918e-16,
+      "rho_upper": 1.3318363409173552e-13,
+      "eta_upper": 8.621604858045203e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "method": "Single-median",
+    "pressure_relative_upper": 1.7800399766368378e-09,
+    "flux_relative_upper": 1.780039976531231e-09,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.4976808612770214e-21,
+      "norm_upper": 2.9422444938598533e-15,
+      "max_abs_upper": 2.007628784948551e-16,
+      "rho_upper": 1.3315078614703102e-13,
+      "eta_upper": 8.223247503149266e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 1.780039986033767e-09,
+    "flux_relative_upper": 1.780039986134202e-09,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.194055104354988e-21,
+      "norm_upper": 2.946864283921744e-15,
+      "max_abs_upper": 2.104883998546192e-16,
+      "rho_upper": 1.33359853979381e-13,
+      "eta_upper": 8.621604858045204e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 1.7800400007805107e-09,
+    "flux_relative_upper": 1.7800400009780495e-09,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.8076842331738897e-21,
+      "norm_upper": 2.949121580255308e-15,
+      "max_abs_upper": 1.9712114533204889e-16,
+      "rho_upper": 1.334620075502376e-13,
+      "eta_upper": 8.074082112800723e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 1.780370777846339e-09,
+    "flux_relative_upper": 1.7803707780257603e-09,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.1373534620264158e-12,
+      "norm_upper": 1.1409805270408442e-12,
+      "max_abs_upper": 1.509509735410982e-13,
+      "rho_upper": 5.163488434458385e-11,
+      "eta_upper": 6.182951876243383e-10
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "complete_case": true
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 5.5897894255342284e-12,
+    "flux_relative_upper": 5.589789338307998e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.6077535394943445e-12,
+      "norm_upper": 1.6088181467575376e-12,
+      "max_abs_upper": 1.2712563206979113e-13,
+      "rho_upper": 7.280679816222618e-11,
+      "eta_upper": 5.207065889578646e-10
+    }
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 3.657247654330657e-12,
+    "flux_relative_upper": 3.657247772640078e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.0162592493524476e-12,
+      "norm_upper": 1.017292824197749e-12,
+      "max_abs_upper": 5.913288361720788e-14,
+      "rho_upper": 4.603741788499908e-11,
+      "eta_upper": 2.422082912960835e-10
+    }
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "method": "Single-median",
+    "pressure_relative_upper": 6.804332164339271e-12,
+    "flux_relative_upper": 6.804332196907701e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.9560270764260392e-12,
+      "norm_upper": 1.9570739232544325e-12,
+      "max_abs_upper": 1.0541508892957387e-13,
+      "rho_upper": 8.856705551594935e-11,
+      "eta_upper": 4.317802042555346e-10
+    }
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 8.546798401662319e-12,
+    "flux_relative_upper": 8.546798404408119e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.2081146550371598e-12,
+      "norm_upper": 2.2091085437076008e-12,
+      "max_abs_upper": 2.0738956571212408e-13,
+      "rho_upper": 9.997284042595298e-11,
+      "eta_upper": 8.494676611568604e-10
+    }
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 3.2696139963461778e-12,
+    "flux_relative_upper": 3.269613989633799e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 8.64377471772204e-13,
+      "norm_upper": 8.653646323993879e-13,
+      "max_abs_upper": 7.104878427379822e-14,
+      "rho_upper": 3.916193278576101e-11,
+      "eta_upper": 2.910158203854776e-10
+    }
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 9.44349752983616e-12,
+    "flux_relative_upper": 9.443497596681857e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.0680492735487577e-12,
+      "norm_upper": 1.0689393623228678e-12,
+      "max_abs_upper": 8.33182606233313e-14,
+      "rho_upper": 4.8374673394350285e-11,
+      "eta_upper": 3.4127159551316504e-10
+    }
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "complete_case": true
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 6.931363240945311e-10,
+    "flux_relative_upper": 6.931363710902238e-10,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.700570064448579e-12,
+      "norm_upper": 1.7017341741192288e-12,
+      "max_abs_upper": 2.0574717588141695e-13,
+      "rho_upper": 7.701169755610284e-11,
+      "eta_upper": 8.427404324102839e-10
+    }
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 6.936070528651238e-10,
+    "flux_relative_upper": 6.936070531187925e-10,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.436235555158841e-12,
+      "norm_upper": 1.4374127176044738e-12,
+      "max_abs_upper": 1.261670923502717e-13,
+      "rho_upper": 6.504987391978871e-11,
+      "eta_upper": 5.16780410266713e-10
+    }
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "method": "Single-median",
+    "pressure_relative_upper": 6.940335327104307e-10,
+    "flux_relative_upper": 6.940335328796677e-10,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.4742354475529146e-12,
+      "norm_upper": 1.4755263847303669e-12,
+      "max_abs_upper": 1.0430164990472305e-13,
+      "rho_upper": 6.677470159857258e-11,
+      "eta_upper": 4.2721955800974565e-10
+    }
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 6.94414594333754e-10,
+    "flux_relative_upper": 6.944145943100697e-10,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.21472475829822e-12,
+      "norm_upper": 2.2158176442340168e-12,
+      "max_abs_upper": 2.3435480138781545e-13,
+      "rho_upper": 1.0027645965654241e-10,
+      "eta_upper": 9.599172664844923e-10
+    }
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 6.948850124458972e-10,
+    "flux_relative_upper": 6.948850126771632e-10,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.420025549631004e-12,
+      "norm_upper": 1.4213728357385688e-12,
+      "max_abs_upper": 1.518292702484151e-13,
+      "rho_upper": 6.432399172862215e-11,
+      "eta_upper": 6.218926909375083e-10
+    }
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 6.935314560387989e-10,
+    "flux_relative_upper": 6.93531456062813e-10,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.411130576316576e-13,
+      "norm_upper": 2.4220841910944015e-13,
+      "max_abs_upper": 1.705783395246758e-14,
+      "rho_upper": 1.0961101799376055e-11,
+      "eta_upper": 6.986888786930723e-11
+    }
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "complete_case": true
+  },
+  {
+    "case": "SPE10-0d",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 2.392740080299016e-11,
+    "flux_relative_upper": 2.3927400722248858e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.302032635513699e-07,
+      "norm_upper": 3.302032635925028e-07,
+      "max_abs_upper": 4.199680669970206e-08,
+      "rho_upper": 1.0844344052211274e-10,
+      "eta_upper": 1.2715916240058214e-10
+    }
+  },
+  {
+    "case": "SPE10-0d",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 2.467117503620063e-11,
+    "flux_relative_upper": 2.4671175066395765e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.350281329024677e-07,
+      "norm_upper": 3.3502813294420155e-07,
+      "max_abs_upper": 1.6665728087578685e-08,
+      "rho_upper": 1.1002799612848498e-10,
+      "eta_upper": 5.046098003511765e-11
+    }
+  },
+  {
+    "case": "SPE10-0d",
+    "method": "Single-median",
+    "pressure_relative_upper": 2.409970429491648e-11,
+    "flux_relative_upper": 2.4099704270790976e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.313013194664154e-07,
+      "norm_upper": 3.3130131950768505e-07,
+      "max_abs_upper": 3.7560577547908856e-08,
+      "rho_upper": 1.0880405767662693e-10,
+      "eta_upper": 1.1372701773318599e-10
+    }
+  },
+  {
+    "case": "SPE10-0d",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 1.8289261903521414e-11,
+    "flux_relative_upper": 1.828926172435942e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.3254666572745064e-07,
+      "norm_upper": 2.3254666575641853e-07,
+      "max_abs_upper": 2.59911628892621e-08,
+      "rho_upper": 7.637162710691143e-11,
+      "eta_upper": 7.869680488919433e-11
+    }
+  },
+  {
+    "case": "SPE10-0d",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 7.826482301428294e-12,
+    "flux_relative_upper": 7.826481720756464e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.0824835416742187e-07,
+      "norm_upper": 2.0824835419336302e-07,
+      "max_abs_upper": 1.3539901125273623e-07,
+      "rho_upper": 6.839171656299941e-11,
+      "eta_upper": 4.0996509529585443e-10
+    }
+  },
+  {
+    "case": "SPE10-0d",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 2.2480959181615272e-11,
+    "flux_relative_upper": 2.2480959340546162e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.5416344898621434e-07,
+      "norm_upper": 2.541634490178751e-07,
+      "max_abs_upper": 4.336838448341115e-08,
+      "rho_upper": 8.347088567991602e-11,
+      "eta_upper": 1.313120658199017e-10
+    }
+  },
+  {
+    "case": "SPE10-0d",
+    "complete_case": true
+  },
+  {
+    "case": "SPE10-520.04d",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 7.390382120517897e-11,
+    "flux_relative_upper": 7.39038214098517e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 4.328140889031404e-07,
+      "norm_upper": 4.3281408895705525e-07,
+      "max_abs_upper": 6.806294209324292e-08,
+      "rho_upper": 1.4214229260577336e-10,
+      "eta_upper": 2.0608297123594145e-10
+    }
+  },
+  {
+    "case": "SPE10-520.04d",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 7.524285880596772e-11,
+    "flux_relative_upper": 7.524285904892996e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 4.5651953166672055e-07,
+      "norm_upper": 4.5651953172358833e-07,
+      "max_abs_upper": 5.2083915567669836e-08,
+      "rho_upper": 1.4992749661840035e-10,
+      "eta_upper": 1.5770120631992055e-10
+    }
+  },
+  {
+    "case": "SPE10-520.04d",
+    "method": "Single-median",
+    "pressure_relative_upper": 7.611377037183601e-11,
+    "flux_relative_upper": 7.611377052988028e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 4.058202860554615e-07,
+      "norm_upper": 4.0582028610601385e-07,
+      "max_abs_upper": 3.2171823071975816e-08,
+      "rho_upper": 1.3327714444795543e-10,
+      "eta_upper": 9.741078896746666e-11
+    }
+  },
+  {
+    "case": "SPE10-520.04d",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 6.00677273416294e-11,
+    "flux_relative_upper": 6.006772697129217e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.9825274749813187e-07,
+      "norm_upper": 1.9825274752282786e-07,
+      "max_abs_upper": 1.7838306831511134e-08,
+      "rho_upper": 6.510901739865589e-11,
+      "eta_upper": 5.401134832843445e-11
+    }
+  },
+  {
+    "case": "SPE10-520.04d",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 6.572079078888543e-11,
+    "flux_relative_upper": 6.572079138497706e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.008640079484288e-07,
+      "norm_upper": 3.00864007985907e-07,
+      "max_abs_upper": 8.3200963299474e-08,
+      "rho_upper": 9.880801237485087e-11,
+      "eta_upper": 2.5191831559321256e-10
+    }
+  },
+  {
+    "case": "SPE10-520.04d",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 7.092355254463172e-11,
+    "flux_relative_upper": 7.092355242109543e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.4936862671492593e-07,
+      "norm_upper": 3.4936862675844617e-07,
+      "max_abs_upper": 6.848124190157872e-08,
+      "rho_upper": 1.1473761792653577e-10,
+      "eta_upper": 2.0734951165747026e-10
+    }
+  },
+  {
+    "case": "SPE10-520.04d",
+    "complete_case": true
+  },
+  {
+    "case": "SPE10-2000d",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 9.578441821736012e-11,
+    "flux_relative_upper": 9.578441804386808e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.6960381457752156e-07,
+      "norm_upper": 3.696038146235625e-07,
+      "max_abs_upper": 3.4786167978382646e-08,
+      "rho_upper": 1.213831409532632e-10,
+      "eta_upper": 1.0532657911079865e-10
+    }
+  },
+  {
+    "case": "SPE10-2000d",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 9.174043084106227e-11,
+    "flux_relative_upper": 9.174043069606927e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.8026859602331447e-07,
+      "norm_upper": 3.8026859607068383e-07,
+      "max_abs_upper": 3.574602953019068e-08,
+      "rho_upper": 1.2488560661626003e-10,
+      "eta_upper": 1.0823287605430647e-10
+    }
+  },
+  {
+    "case": "SPE10-2000d",
+    "method": "Single-median",
+    "pressure_relative_upper": 9.581337703138003e-11,
+    "flux_relative_upper": 9.581337713891557e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.784964103515095e-07,
+      "norm_upper": 3.784964103986582e-07,
+      "max_abs_upper": 2.646392498575861e-08,
+      "rho_upper": 1.2430359567721728e-10,
+      "eta_upper": 8.01282478232988e-11
+    }
+  },
+  {
+    "case": "SPE10-2000d",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 9.20012769117215e-11,
+    "flux_relative_upper": 9.20012764018292e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.0770854267859843e-07,
+      "norm_upper": 3.0770854271692916e-07,
+      "max_abs_upper": 2.742910130073354e-08,
+      "rho_upper": 1.0105585477025834e-10,
+      "eta_upper": 8.305063696251789e-11
+    }
+  },
+  {
+    "case": "SPE10-2000d",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 7.639129655312919e-11,
+    "flux_relative_upper": 7.639129645604185e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.742443013941305e-07,
+      "norm_upper": 1.7424430141583583e-07,
+      "max_abs_upper": 5.266729113469291e-08,
+      "rho_upper": 5.722430278649221e-11,
+      "eta_upper": 1.5946756796255815e-10
+    }
+  },
+  {
+    "case": "SPE10-2000d",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 9.706627370263674e-11,
+    "flux_relative_upper": 9.706627387944171e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.2267305428259426e-07,
+      "norm_upper": 3.226730543227891e-07,
+      "max_abs_upper": 4.164623722912753e-08,
+      "rho_upper": 1.0597041287188634e-10,
+      "eta_upper": 1.260976978811431e-10
+    }
+  },
+  {
+    "case": "SPE10-2000d",
+    "complete_case": true
+  },
+  {
+    "case": "Brugge-0d",
+    "method": "ML-CPMG",
+    "relative_energy_difference": 4.854377236818876e-11,
+    "true_residual": 9.1411182684095e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-0d",
+    "method": "Min-threshold",
+    "relative_energy_difference": 3.5948428274156134e-11,
+    "true_residual": 7.352904582178573e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-0d",
+    "method": "Single-median",
+    "relative_energy_difference": 3.588746497495371e-11,
+    "true_residual": 7.21725319347675e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-0d",
+    "method": "SA-0",
+    "relative_energy_difference": 3.4197345286469126e-11,
+    "true_residual": 8.10840448942389e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-0d",
+    "method": "SA-0.04",
+    "relative_energy_difference": 2.257012068990788e-11,
+    "true_residual": 4.559566874835283e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-0d",
+    "method": "SA-0.1",
+    "relative_energy_difference": 4.265917086272412e-11,
+    "true_residual": 8.694895226337567e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-0d",
+    "method": "RS-0.25",
+    "relative_energy_difference": 5.5698289153099893e-11,
+    "true_residual": 9.966525112581479e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-0d",
+    "method": "Algebraic-only",
+    "relative_energy_difference": 2.16612090388323e-11,
+    "true_residual": 4.431028812282527e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-0d",
+    "complete_case": true
+  },
+  {
+    "case": "Brugge-1000d",
+    "method": "ML-CPMG",
+    "relative_energy_difference": 4.362828364017235e-11,
+    "true_residual": 8.467709495804549e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-1000d",
+    "method": "Min-threshold",
+    "relative_energy_difference": 4.4784125946909955e-11,
+    "true_residual": 8.493652423700135e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-1000d",
+    "method": "Single-median",
+    "relative_energy_difference": 4.9300535567718184e-11,
+    "true_residual": 8.799001239788247e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-1000d",
+    "method": "SA-0",
+    "relative_energy_difference": 1.9538961880624444e-11,
+    "true_residual": 4.7359657057290414e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-1000d",
+    "method": "SA-0.04",
+    "relative_energy_difference": 2.4915917116736696e-11,
+    "true_residual": 5.560170414570078e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-1000d",
+    "method": "SA-0.1",
+    "relative_energy_difference": 9.255331912544956e-12,
+    "true_residual": 2.2706517562951777e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-1000d",
+    "method": "RS-0.25",
+    "relative_energy_difference": 1.5398852166903957e-11,
+    "true_residual": 3.370249218911081e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-1000d",
+    "method": "Algebraic-only",
+    "relative_energy_difference": 3.999157637755954e-11,
+    "true_residual": 8.590418864434548e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-1000d",
+    "complete_case": true
+  },
+  {
+    "case": "Brugge-2000d",
+    "method": "ML-CPMG",
+    "relative_energy_difference": 4.3820746213746257e-11,
+    "true_residual": 8.414452927883549e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-2000d",
+    "method": "Min-threshold",
+    "relative_energy_difference": 3.730210119302921e-11,
+    "true_residual": 7.073592653665344e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-2000d",
+    "method": "Single-median",
+    "relative_energy_difference": 4.19426480366285e-11,
+    "true_residual": 7.906627144566624e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-2000d",
+    "method": "SA-0",
+    "relative_energy_difference": 2.0955484348716352e-11,
+    "true_residual": 5.0938822849299415e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-2000d",
+    "method": "SA-0.04",
+    "relative_energy_difference": 2.5157840437370945e-11,
+    "true_residual": 5.754468352058729e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-2000d",
+    "method": "SA-0.1",
+    "relative_energy_difference": 9.32514142871026e-12,
+    "true_residual": 2.514382476531941e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-2000d",
+    "method": "RS-0.25",
+    "relative_energy_difference": 3.404541640086798e-11,
+    "true_residual": 8.088312553104234e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-2000d",
+    "method": "Algebraic-only",
+    "relative_energy_difference": 2.010917847067053e-11,
+    "true_residual": 4.331416320613274e-11,
+    "comparison": "direct SuperLU; numerical difference, not interval bound"
+  },
+  {
+    "case": "Brugge-2000d",
+    "complete_case": true
+  }
+]

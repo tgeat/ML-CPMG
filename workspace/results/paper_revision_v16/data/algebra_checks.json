@@ -1,0 +1,302 @@
+[
+  {
+    "grounded": false,
+    "seed": 7,
+    "line": false,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -5.479873476215287e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.4455220420581644e-14,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.4339521481789878e-16,
+    "min_preconditioned_eigenvalue": 0.3176726576746974,
+    "max_preconditioned_eigenvalue": 1.0000000000000095,
+    "energy_contraction": 0.6823273423253027
+  },
+  {
+    "grounded": false,
+    "seed": 7,
+    "line": true,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -5.479873476215287e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.4455220420581644e-14,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.3153758539353172e-16,
+    "min_preconditioned_eigenvalue": 0.33218691198560435,
+    "max_preconditioned_eigenvalue": 1.000000000000005,
+    "energy_contraction": 0.6678130880143957
+  },
+  {
+    "grounded": false,
+    "seed": 11,
+    "line": false,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -5.38949747751987e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.8553212908797185e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.4945759611675368e-16,
+    "min_preconditioned_eigenvalue": 0.2738576808274786,
+    "max_preconditioned_eigenvalue": 1.0000000000000329,
+    "energy_contraction": 0.7261423191725214
+  },
+  {
+    "grounded": false,
+    "seed": 11,
+    "line": true,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -5.38949747751987e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.8553212908797185e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.4494439165602912e-16,
+    "min_preconditioned_eigenvalue": 0.33413081561138414,
+    "max_preconditioned_eigenvalue": 1.0000000000000202,
+    "energy_contraction": 0.6658691843886159
+  },
+  {
+    "grounded": false,
+    "seed": 29,
+    "line": false,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 53,
+        "rank": 53,
+        "min_energy_increment": -7.147879669798066e-15,
+        "lumped": true
+      },
+      {
+        "n": 53,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -7.368114770814399e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.5474011064908334e-16,
+    "min_preconditioned_eigenvalue": 0.33728053439780853,
+    "max_preconditioned_eigenvalue": 0.9999999993345455,
+    "energy_contraction": 0.6627194656021915
+  },
+  {
+    "grounded": false,
+    "seed": 29,
+    "line": true,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 53,
+        "rank": 53,
+        "min_energy_increment": -7.147879669798066e-15,
+        "lumped": true
+      },
+      {
+        "n": 53,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -7.368114770814399e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.3903262429971852e-16,
+    "min_preconditioned_eigenvalue": 0.34030360377158,
+    "max_preconditioned_eigenvalue": 0.9999999744314004,
+    "energy_contraction": 0.65969639622842
+  },
+  {
+    "grounded": true,
+    "seed": 7,
+    "line": false,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -7.147450533136678e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -4.538144974810264e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.7557910500316905e-16,
+    "min_preconditioned_eigenvalue": 0.337010490515932,
+    "max_preconditioned_eigenvalue": 1.0000000000000244,
+    "energy_contraction": 0.662989509484068
+  },
+  {
+    "grounded": true,
+    "seed": 7,
+    "line": true,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -7.147450533136678e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -4.538144974810264e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.891405110390144e-16,
+    "min_preconditioned_eigenvalue": 0.36362972069645305,
+    "max_preconditioned_eigenvalue": 1.0000000000000182,
+    "energy_contraction": 0.636370279303547
+  },
+  {
+    "grounded": true,
+    "seed": 11,
+    "line": false,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -5.336814038076344e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.0412649356396198e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.7482730803385547e-16,
+    "min_preconditioned_eigenvalue": 0.30316730648447976,
+    "max_preconditioned_eigenvalue": 1.00000000000005,
+    "energy_contraction": 0.6968326935155202
+  },
+  {
+    "grounded": true,
+    "seed": 11,
+    "line": true,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -5.336814038076344e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.0412649356396198e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.8821424771547564e-16,
+    "min_preconditioned_eigenvalue": 0.37487124761188134,
+    "max_preconditioned_eigenvalue": 1.000000000000023,
+    "energy_contraction": 0.6251287523881186
+  },
+  {
+    "grounded": true,
+    "seed": 29,
+    "line": false,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 53,
+        "rank": 53,
+        "min_energy_increment": -7.293733170545759e-15,
+        "lumped": true
+      },
+      {
+        "n": 53,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.898331722471016e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.9574417063925522e-16,
+    "min_preconditioned_eigenvalue": 0.3828661918661584,
+    "max_preconditioned_eigenvalue": 0.9999999497605628,
+    "energy_contraction": 0.6171338081338416
+  },
+  {
+    "grounded": true,
+    "seed": 29,
+    "line": true,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 53,
+        "rank": 53,
+        "min_energy_increment": -7.293733170545759e-15,
+        "lumped": true
+      },
+      {
+        "n": 53,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.898331722471016e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.928945008508797e-16,
+    "min_preconditioned_eigenvalue": 0.380491809895076,
+    "max_preconditioned_eigenvalue": 0.999999987309505,
+    "energy_contraction": 0.619508190104924
+  }
+]

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+outputs/
+workspace/results/*/output/
+workspace/results/*/qa/
+workspace/results/spe10_model2_singlephase/
+workspace/results/spe10_model2_dynamic/
+workspace/results/brugge_validation_v2/inputs.npz
+workspace/results/brugge_validation_v2/runs/
+workspace/results/paper_revision_v18/data/spe10_sections.npz
+workspace/results/paper_revision_v18/data/brugge_geometry.npz
+.env
+*.pem
+*.key

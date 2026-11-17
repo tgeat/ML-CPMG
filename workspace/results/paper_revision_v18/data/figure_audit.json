@@ -1,0 +1,92 @@
+{
+  "figA": {
+    "axes": 13,
+    "size_inches": [
+      9.1,
+      7.7
+    ]
+  },
+  "fig05": {
+    "axes": 11,
+    "size_inches": [
+      8.7,
+      6.4
+    ]
+  },
+  "spe10_errors": {
+    "common_lower": 1e-16,
+    "common_upper": 1e-11,
+    "max_cellwise": 4.988815435372508e-12,
+    "physical_extents_ft": [
+      1200,
+      2200,
+      170
+    ],
+    "vertical_exaggeration": 7,
+    "slice_indices_1based": [
+      43,
+      110,
+      30
+    ]
+  },
+  "fig06": {
+    "axes": 13,
+    "size_inches": [
+      8.7,
+      7.7
+    ]
+  },
+  "figC": {
+    "axes": 2,
+    "size_inches": [
+      8.8,
+      4.05
+    ]
+  },
+  "brugge": {
+    "active_cells": 43474,
+    "nnc": 152,
+    "shell_faces": 15314,
+    "map_origin_m": [
+      -4692.9338921925955,
+      -1465.3500000000013
+    ],
+    "vertical_exaggeration": 7,
+    "pressure": "normalized stored drawdown, 0 d"
+  },
+  "figB": {
+    "axes": 4,
+    "size_inches": [
+      9.1,
+      4.8
+    ]
+  },
+  "fig01": {
+    "axes": 2,
+    "size_inches": [
+      8.6,
+      3.8
+    ]
+  },
+  "fig03": {
+    "axes": 7,
+    "size_inches": [
+      8.5,
+      5.25
+    ]
+  },
+  "fig04": {
+    "axes": 4,
+    "size_inches": [
+      8.5,
+      5.7
+    ]
+  },
+  "fig07": {
+    "axes": 4,
+    "size_inches": [
+      8.8,
+      6.25
+    ]
+  }
+}

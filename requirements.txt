@@ -1,0 +1,8 @@
+numpy==2.3.5
+scipy==1.16.3
+pyamg==5.4.1
+psutil==7.0.0
+threadpoolctl==3.5.0
+matplotlib==3.10.6
+lz4==4.4.5
+numba==0.62.1

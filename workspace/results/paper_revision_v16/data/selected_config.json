@@ -1,0 +1,16 @@
+{
+  "max_basins": 256,
+  "stall_ratio": 0.33,
+  "prolong_omega": 0.45,
+  "selection": "Exploratory cost/size choice: impose Cop <= 3.0, then select smallest complexity within 5% of the fastest feasible ML cold run. The faster fine-level algebraic fallback is separately reported, including its higher Cop and loss of basin-labelled aggregation.",
+  "calibration_case": "SPE10-static",
+  "calibration_fine_smoother": "automatic rule, not triggered on this coefficient field",
+  "internal_SPE10_smoother": "same forced vertical line on all four internal methods, including the algebraic-only control",
+  "primary_SA_theta": 0.04,
+  "SA_sensitivity": [
+    0,
+    0.04,
+    0.1
+  ],
+  "fixed_configuration_evaluation": "SPE10 three mobility states and Brugge three states"
+}

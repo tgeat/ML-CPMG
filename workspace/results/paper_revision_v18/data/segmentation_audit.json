@@ -1,0 +1,199 @@
+{
+  "multilevel_nested_lobes": {
+    "Min-threshold": {
+      "positive_labels_3d": 1,
+      "positive_labels_x32": 1,
+      "prescribed_cores": 13,
+      "resolved_cores": 1,
+      "dominant_labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "Single-median": {
+      "positive_labels_3d": 4,
+      "positive_labels_x32": 1,
+      "prescribed_cores": 13,
+      "resolved_cores": 1,
+      "dominant_labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "ML-CPMG": {
+      "positive_labels_3d": 13,
+      "positive_labels_x32": 13,
+      "prescribed_cores": 13,
+      "resolved_cores": 13,
+      "dominant_labels": [
+        11,
+        12,
+        13,
+        7,
+        8,
+        9,
+        10,
+        1,
+        4,
+        2,
+        6,
+        5,
+        3
+      ]
+    }
+  },
+  "multilevel_braided_channels": {
+    "Min-threshold": {
+      "positive_labels_3d": 1,
+      "positive_labels_x32": 1,
+      "prescribed_cores": 24,
+      "resolved_cores": 1,
+      "dominant_labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "Single-median": {
+      "positive_labels_3d": 1,
+      "positive_labels_x32": 1,
+      "prescribed_cores": 24,
+      "resolved_cores": 1,
+      "dominant_labels": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "ML-CPMG": {
+      "positive_labels_3d": 28,
+      "positive_labels_x32": 24,
+      "prescribed_cores": 24,
+      "resolved_cores": 24,
+      "dominant_labels": [
+        26,
+        16,
+        8,
+        27,
+        18,
+        1,
+        10,
+        20,
+        4,
+        6,
+        15,
+        28,
+        23,
+        19,
+        12,
+        11,
+        22,
+        5,
+        7,
+        17,
+        24,
+        9,
+        21,
+        25
+      ]
+    }
+  },
+  "smooth_gaussian": {
+    "Min-threshold": {
+      "positive_labels_3d": 1,
+      "positive_labels_x32": 1
+    },
+    "Single-median": {
+      "positive_labels_3d": 1,
+      "positive_labels_x32": 1
+    },
+    "ML-CPMG": {
+      "positive_labels_3d": 1,
+      "positive_labels_x32": 1
+    }
+  },
+  "slice": {
+    "axis": 0,
+    "zero_based_index": 32,
+    "coordinate": 0.5078125,
+    "interpolation": "none"
+  },
+  "spe10": {
+    "labels_3d": 256,
+    "shape": [
+      85,
+      220,
+      60
+    ]
+  },
+  "source_sha256": {
+    "multilevel_continuous_media.py": "2bb285353ec5b4da8756242c5918b0a58ef150eb54d9ae11bd982c175a4a1fb7",
+    "results\\paper_revision_v16\\code\\ml_cpmg_v16.py": "7ebbf72f0ff7f7388688cd6ad6cfee6a20186db58d949143ac02426dc50cb220",
+    "results\\paper_revision_v16\\data\\summary.json": "1dea28f9e9107ec6d1f9f8b1e978de090a4ae66833d20f429e7b80e0a9d13182",
+    "results\\paper_revision_v16\\data\\calibrate.json": "b0f454974da309b9fb69bdc75ce76dfd8ee5f9155f0f37b091437de8e2afc787"
+  }
+}
