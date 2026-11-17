@@ -22,7 +22,7 @@ python reproduce.py tables
 python reproduce.py figures
 ```
 
-`smoke` solves manufactured Cartesian Neumann and grounded NNC graph problems. `algebra` checks twelve small hierarchies. `tables` regenerates the eight manuscript tables from archived measurements, and `figures` regenerates Figures 1–6 and 10. These commands need no reservoir downloads. Outputs are written to `outputs/`, leaving the archived evidence unchanged. Matching figure typography requires locally installed Arial and Times New Roman; fonts are not distributed here.
+`smoke` solves manufactured Cartesian Neumann and grounded NNC graph problems. `algebra` checks twelve small hierarchies. `tables` regenerates seven numerical tables from archived measurements and copies the fixed protocol-settings table (`configuration.tex`), providing all eight manuscript tables. `figures` regenerates Figures 1–6 and 10. These commands need no reservoir downloads. Outputs are written to `outputs/`, leaving the archived evidence unchanged. Matching figure typography requires locally installed Arial and Times New Roman; fonts are not distributed here.
 
 To run a fresh, conservation-checked 64³ synthetic pressure solve:
 

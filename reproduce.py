@@ -65,6 +65,8 @@ def tables():
     target=OUT/'table_inputs';target.mkdir(parents=True,exist_ok=True)
     for p in (W/'results/paper_revision_v16/data').glob('*.json'):shutil.copy2(p,target/p.name)
     m.DATA=target;m.OUT=OUT;m.TAB=OUT/'tables';m.main()
+    # Table 1 records fixed protocol settings; Tables 2-8 derive from measurements.
+    shutil.copy2(ROOT/'configuration.tex',m.TAB/'configuration.tex')
 
 def figures(names):
     m=load('publication_figures',W/'results/paper_revision_v18_fig10_median/code/figures.py')

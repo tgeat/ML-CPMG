@@ -1,0 +1,23 @@
+\begin{table*}[!tbp]\centering
+\caption{Frozen solver configurations. The three labelled variants share the same hierarchy implementation.}\label{tab:configuration}
+\begin{tabular}{llll}
+\toprule
+Method & Fine labels / aggregation & Fine relaxation & Coarsest limit\\
+\midrule
+ML-CPMG & Persistent watershed, $B_{\max}=256$ & Vertical line on SPE10 &512\\
+Min-threshold & Connected foreground $k>\min k$ & Same as ML-CPMG &512\\
+Single-median & Connected foreground $\log k>\med(\log k)$ & Same as ML-CPMG &512\\
+Algebraic-only & Heavy-edge aggregation from level 0 & Same as ML-CPMG &512\\
+SA & Symmetric strength, $\theta=0.04$ & Symmetric Gauss--Seidel &10\\
+RS & Classical strength, $\theta=0.25$ & Symmetric Gauss--Seidel &512\\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize
+Internal methods use $\omega_P=0.45$, $\tau_P=0$ on the fine level and $0.04$
+thereafter, full positive-edge lumping, $\eta_{\rm stall}=0.33$, one pre- and
+one post-smoothing step, and at most eight nodes per algebraic aggregate.
+Synthetic grids use the common automatic line trigger; Brugge uses point
+relaxation. Persistence, barrier, background and pedestal parameters are
+$16$, $8$, $0.22$ and $2$, respectively. SA thresholds $0$ and $0.1$ are
+reported in the sensitivity study.\normalsize
+\end{table*}
