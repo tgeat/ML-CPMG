@@ -1,39 +1,44 @@
-# Data sources and reproduction scope
+# Data sources and reproduction
 
-The repository includes our synthetic field realization, synthetic generators, solver source, parameters, numerical measurements and plotting source. It does **not** redistribute SPE10/Brugge input arrays, derived reservoir geometry, or the frozen reservoir state files. The MIT license applies to the authors' code; it does not grant rights to third-party data.
+The repository includes the synthetic display arrays, parameter selections, archived benchmark timings, and accuracy records. Reservoir inputs, frozen pressure and saturation checkpoints, and reservoir display arrays are obtained separately. [External inputs and SHA-256 checksums](external_inputs.json)
 
-## SPE10
+## SPE10 Model 2
 
-The original input source is [OPM/opm-data, spe10model2](https://github.com/OPM/opm-data/tree/2e810769abfc001ca2cf32d1b674c4bce7a918cb/spe10model2), revision `2e810769abfc001ca2cf32d1b674c4bce7a918cb`. The files are `SPE10MODEL2_PERM.INC` and `SPE10MODEL2_PHI.INC`. Consult that provider for applicable terms and attribution. The permeability download SHA-256 is `1829e331b64d2efb416fc40f4d68388087a11e4f7ff5ac6866eb8f1a88f8993d`.
-
-After obtaining the source inputs in accordance with the provider's terms, the existing preparation routines download/parse the pinned files and create the local NumPy arrays:
+The SPE10 preparation script downloads the permeability and porosity files, `SPE10MODEL2_PERM.INC` and `SPE10MODEL2_PHI.INC`, from the pinned revision of OPM's data repository and writes `permeability.npy` and `porosity.npy` under `data/inputs/spe10/`. Follow the original provider's attribution and terms. [Pinned OPM data source](https://github.com/OPM/opm-data/tree/2e810769abfc001ca2cf32d1b674c4bce7a918cb/spe10model2)
 
 ```sh
-cd workspace
-python -c "import spe10_problem; spe10_problem.prepare()"
-python -c "import spe10_dynamic_problem; spe10_dynamic_problem.prepare()"
-cd ..
-python reproduce.py benchmark --suite static --method ML-CPMG
+python experiments/preprocess/spe10/prepare.py
+python run.py exp3 --method ML-CPMG --repeats 1
 ```
 
-The dynamic pressure suite additionally requires the frozen saturation states at 520.04 and 2000 days. The zero-day state is initialized in the benchmark. Downloading permeability and porosity alone does not reconstruct these frozen states.
+The dynamic suite builds the initial state from those arrays. Its 520.04-day and 2000-day pressure systems also require the frozen saturation checkpoints listed in the manifest.
 
-## Brugge
+## OLYMPUS_1
 
-The source is [TNO/Brugge](https://github.com/TNO/Brugge/tree/4e282a11ab7ba4794bebcb639ee6632d5afe48e7), revision `4e282a11ab7ba4794bebcb639ee6632d5afe48e7`, archive `BRUGGE60K_FY-SF-KM-1-1_JAN2017.tar.gz`, SHA-256 `e32b7efeea1fa1f77638876d0611d4fc4a2e4aae3d6dc532fa876a3c6f14086b`. Acknowledge TNO and consult its original README and data-use terms, including its noncommercial-use condition.
+OLYMPUS model realization 1 is © 2020 TNO and licensed under CC BY 4.0. Acknowledge TNO, cite Fonseca et al. (2020), and follow the original data terms. The authors' MIT code license applies to the implementation. [TNO's dataset and attribution](https://github.com/TNO/OLYMPUS) · [Benchmark paper](https://doi.org/10.1007/s10596-020-10003-4) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-The manuscript uses this single synthetic realization, with 43,474 active cells, 122,543 graph edges and 152 NNCs. Our graph and pressure code is included. The processed graph/rock input and frozen states at 0, 1000 and 2000 days are separate external inputs. This public repository is not a complete reservoir-state generation pipeline.
-
-## Exact external inputs
-
-`external_inputs.json` lists each required file, its path relative to `workspace/`, byte count and SHA-256. Existing holders of the original reproducibility inputs can place them at those paths and verify their checksums before using:
+From the repository root, save the upstream archive and README under `outputs/olympus_preparation/raw/` using the filenames below. The builder verifies the two source checksums and prepares the Open, Baffle and Sealing-wet cases.
 
 ```sh
-python reproduce.py benchmark --suite dynamic --method ML-CPMG
-python reproduce.py benchmark --suite brugge --method ML-CPMG
-python reproduce.py figures --only spe10 brugge
+mkdir -p outputs/olympus_preparation/raw
+curl -fL https://raw.githubusercontent.com/TNO/OLYMPUS/main/OLYMPUS_1.tar.gz -o outputs/olympus_preparation/raw/OLYMPUS_1.tar.gz
+curl -fL https://raw.githubusercontent.com/TNO/OLYMPUS/main/README.md -o outputs/olympus_preparation/raw/README.md
+python experiments/preprocess/olympus/build_olympus.py
+cp outputs/olympus_preparation/olympus_cases.npz data/inputs/olympus/
+python run.py exp5 --case OLYMPUS-open --method ML-CPMG --repeats 1
 ```
 
-The last command requires the two named display arrays and produces Figures 7–9. Source downloads alone do not supply the processed display arrays. The manifest records input identity, not a public download endpoint or a promise of unrestricted access. Request any unavailable processed inputs from the manuscript authors, subject to the original providers' terms.
+The archived model summary records the 192,749-cell active graph, its fault connectivity, and the benchmark construction settings. The checksum in the external-input manifest identifies the exact archived bundle. Rebuilding can change floating-point values in the sealing-wet saturation field. In a verification rebuild, its maximum absolute change was `3.63e-7`. The grid, connectivity, Open and Baffle arrays matched the archived arrays exactly. [Model summary](data/inputs/olympus/model_summary.json)
 
-The archived solver measurements and table/summary plots remain reproducible from this repository without these external inputs. They should not be described as newly rerun reservoir experiments.
+## Spatial plots and accuracy checks
+
+The SPE10 and OLYMPUS spatial plots require the two display arrays under `data/figure_arrays/` listed in the manifest. Tables and non-spatial plots use the archived results and bundled synthetic arrays.
+
+To rerun accuracy checks, retain the first-repeat pressure checkpoints generated by the corresponding experiment. The checks use the `*_reliable.npz` files. For example, a one-repeat synthetic experiment produces checkpoints under `outputs/exp2_synthetic/`, which can then be used for interval certification.
+
+```sh
+python run.py exp2 --repeats 1
+python -m experiments.certify --suites synthetic --data-dir outputs/exp2_synthetic --out-file outputs/certification/synthetic.json
+```
+
+SPE10 static and later-time interval checks also need the reference files in the manifest. The OLYMPUS check computes the direct solution from the locally prepared pressure system. The archived `data/results/accuracy.json` records both kinds of checks for the manuscript tables.

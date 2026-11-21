@@ -1,62 +1,54 @@
-[
-  {
-    "workspace_path": "results/spe10_model2_singlephase/permeability.npy",
-    "bytes": 26928128,
-    "sha256": "594c95056731ccb038aa1d08cdd203494da793eaae30b76d8c472535337fd69f",
-    "included": false
+{
+  "data/figure_arrays/olympus_geometry.npz": {
+    "bytes": 15502206,
+    "sha256": "b5a0bbbf641fe639a641eb802d20535430ba2666ede3ad2dc17b34614db0f711"
   },
-  {
-    "workspace_path": "results/spe10_model2_dynamic/porosity.npy",
-    "bytes": 8976128,
-    "sha256": "3e4c3256706f68a6eb293d9c13a7db52d1270d5e44c363af07f337456b5cbd35",
-    "included": false
-  },
-  {
-    "workspace_path": "results/brugge_validation_v2/inputs.npz",
-    "bytes": 5725844,
-    "sha256": "99eee54452a7ae9be26391d8abc6e5cc8d00401d24a61929412eca9d9ed43013",
-    "included": false
-  },
-  {
-    "workspace_path": "results/spe10_model2_dynamic/component_lump_1_1_c512/snapshot_000520.04.npz.lz4",
-    "bytes": 50283084,
-    "sha256": "10dc798be46d2da0b903fc9d181b63d42b081de53ae5df598bf4501a3ed1d46c",
-    "included": false
-  },
-  {
-    "workspace_path": "results/spe10_model2_dynamic/component_lump_1_1_c512/snapshot_002000.00.npz.lz4",
-    "bytes": 51783066,
-    "sha256": "f10742d091545af0826887b5e74b803e7a6e08850e0904aee3e152ac17f86364",
-    "included": false
-  },
-  {
-    "workspace_path": "results/brugge_validation_v2/runs/candidate/snapshots/snapshot_day_00000.00.npz",
-    "bytes": 4397810,
-    "sha256": "de2020596623a5f704fc14b9476e0150c32d1c13cb71dd864f4fc849e5d22004",
-    "included": false
-  },
-  {
-    "workspace_path": "results/brugge_validation_v2/runs/candidate/snapshots/snapshot_day_01000.00.npz",
-    "bytes": 4397810,
-    "sha256": "0c9cd7bdfeb0a3d2e010fae1b0a38807e7c1c5b772109098eda5a21217b06189",
-    "included": false
-  },
-  {
-    "workspace_path": "results/brugge_validation_v2/runs/candidate/snapshots/snapshot_day_02000.00.npz",
-    "bytes": 4397810,
-    "sha256": "709d11d7eb0eacfd99e7b3ba442f3e22b45c6a93bd00cf477159b3856a584dc0",
-    "included": false
-  },
-  {
-    "workspace_path": "results/paper_revision_v18/data/spe10_sections.npz",
+  "data/figure_arrays/spe10_sections.npz": {
     "bytes": 1685586,
-    "sha256": "08f0a3f72e8fb695ef1345ee3a0fa02f902e6f2d16a70a038789ae1bb0677b73",
-    "included": false
+    "sha256": "08f0a3f72e8fb695ef1345ee3a0fa02f902e6f2d16a70a038789ae1bb0677b73"
   },
-  {
-    "workspace_path": "results/paper_revision_v18/data/brugge_geometry.npz",
-    "bytes": 2565984,
-    "sha256": "84669141055a64889423372b1c6e467956f6c289062ba0ef305176d2c29bd805",
-    "included": false
+  "data/inputs/olympus/olympus_cases.npz": {
+    "bytes": 30815064,
+    "sha256": "f78f7a258395a7cfa0b182b7814a61add691eeece2d4f174631e8a3e74d04e26"
+  },
+  "data/inputs/spe10/permeability.npy": {
+    "bytes": 26928128,
+    "sha256": "594c95056731ccb038aa1d08cdd203494da793eaae30b76d8c472535337fd69f"
+  },
+  "data/inputs/spe10/porosity.npy": {
+    "bytes": 8976128,
+    "sha256": "3e4c3256706f68a6eb293d9c13a7db52d1270d5e44c363af07f337456b5cbd35"
+  },
+  "data/inputs/spe10/snapshot_000520.04.npz.lz4": {
+    "bytes": 50283084,
+    "sha256": "10dc798be46d2da0b903fc9d181b63d42b081de53ae5df598bf4501a3ed1d46c"
+  },
+  "data/inputs/spe10/snapshot_000520.04.reference.json": {
+    "bytes": 3837,
+    "sha256": "0c891543286ac62eaa0082c4e291e2d4ec8aee6d60e337bbe0beedb8ad0af049"
+  },
+  "data/inputs/spe10/snapshot_000520.04.reference.npz.lz4": {
+    "bytes": 17953922,
+    "sha256": "2e94383a8e28db6c2b923932480d481b61aa8f2d118d41e440013229e99a2ed6"
+  },
+  "data/inputs/spe10/snapshot_002000.00.npz.lz4": {
+    "bytes": 51783066,
+    "sha256": "f10742d091545af0826887b5e74b803e7a6e08850e0904aee3e152ac17f86364"
+  },
+  "data/inputs/spe10/snapshot_002000.00.reference.json": {
+    "bytes": 3831,
+    "sha256": "e17a20000e8e35ddfa6138a82087b43dbe942b8c9b743497292cbab074c57fd8"
+  },
+  "data/inputs/spe10/snapshot_002000.00.reference.npz.lz4": {
+    "bytes": 17950903,
+    "sha256": "d740d4e6e2c0ccf11ab1137b42fd0254f0cc0377d5b387de5d17c30171e34835"
+  },
+  "data/inputs/spe10/static_reference.json": {
+    "bytes": 929,
+    "sha256": "be43ccda568cc0422b87681456347a314b1e744340ac6013a0fe7d1168d029b4"
+  },
+  "data/inputs/spe10/static_reference.npz": {
+    "bytes": 17952494,
+    "sha256": "e725432ea1cf8d61dd9c43ea2caef8080f3075370caf68d7d6544577f10d1028"
   }
-]
+}

@@ -1,0 +1,12 @@
+{
+  "runs": 252,
+  "cases": 13,
+  "all_conservation_pass": true,
+  "max_rho": 1.439620565725954e-10,
+  "max_eta": 9.59808232892101e-10,
+  "certified_first_repeats": 60,
+  "interval_passes": 60,
+  "max_pressure_error": 1.780370777846339e-09,
+  "max_flux_error": 1.7803707780257603e-09,
+  "max_olympus_difference": 7.671862970189061e-11
+}

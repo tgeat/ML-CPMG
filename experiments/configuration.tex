@@ -1,0 +1,26 @@
+\begin{table*}[pos=!tbp]\centering
+\caption{Frozen solver configurations. All four internal variants share the same hierarchy and relaxation implementation.}\label{tab:configuration}
+\begin{tabular}{llll}
+\toprule
+Method & Fine labels / aggregation & Fine relaxation & Coarsest limit\\
+\midrule
+ML-CPMG & Persistent watershed, $B_{\max}=256$ & Pillar line / point &512\\
+Min-threshold & Connected foreground $k>\min k$ & Same as ML-CPMG &512\\
+Single-median & Connected foreground $\log k>\operatorname{med}(\log k)$ & Same as ML-CPMG &512\\
+Algebraic-only & Heavy-edge aggregation from level 0 & Same as ML-CPMG &512\\
+SA & Symmetric strength, $\theta=0.04$ & Symmetric Gauss--Seidel &10\\
+RS & Classical strength, $\theta=0.25$ & Symmetric Gauss--Seidel &512\\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize
+Internal methods use $\omega_P=0.45$, $\tau_P=0$ on the fine level and $0.04$
+thereafter, full positive-edge lumping, $\eta_{\rm stall}=0.33$, one pre- and
+one post-smoothing step, and at most eight nodes per algebraic aggregate.
+The automatic rule selects line relaxation when the largest directional median
+coupling is at least four times the next largest. On SPE10, calibration uses
+the automatic rule and validation prescribes vertical lines. On OLYMPUS\_1 all
+four internal methods use vertical lines. The three geometric methods also
+semi-coarsen along pillars. Persistence, barrier, background and pedestal
+parameters are $16$, $8$, $0.22$ and $2$, respectively. SA thresholds $0$ and
+$0.1$ are reported in the sensitivity and faulted-reservoir studies.\normalsize
+\end{table*}

@@ -1,0 +1,510 @@
+[
+  {
+    "domain": "cartesian_6x6x6",
+    "grounded": false,
+    "seed": 7,
+    "line": false,
+    "ftm": null,
+    "n_fine": 216,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -5.396712123127926e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.0874121418033532e-14,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.418089311055025e-16,
+    "min_preconditioned_eigenvalue": 0.3176726576746947,
+    "max_preconditioned_eigenvalue": 1.0000000000000104,
+    "energy_contraction": 0.6823273423253053
+  },
+  {
+    "domain": "cartesian_6x6x6",
+    "grounded": false,
+    "seed": 7,
+    "line": true,
+    "ftm": null,
+    "n_fine": 216,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -5.396712123127926e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.0874121418033532e-14,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.3362009850281719e-16,
+    "min_preconditioned_eigenvalue": 0.33218691198560324,
+    "max_preconditioned_eigenvalue": 1.0000000000000056,
+    "energy_contraction": 0.6678130880143968
+  },
+  {
+    "domain": "cartesian_6x6x6",
+    "grounded": false,
+    "seed": 11,
+    "line": false,
+    "ftm": null,
+    "n_fine": 216,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -5.366079017477672e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.8642260361425915e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.552905651423925e-16,
+    "min_preconditioned_eigenvalue": 0.273857680827478,
+    "max_preconditioned_eigenvalue": 1.0000000000000342,
+    "energy_contraction": 0.726142319172522
+  },
+  {
+    "domain": "cartesian_6x6x6",
+    "grounded": false,
+    "seed": 11,
+    "line": true,
+    "ftm": null,
+    "n_fine": 216,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -5.366079017477672e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.8642260361425915e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.4500684120337417e-16,
+    "min_preconditioned_eigenvalue": 0.334130815611385,
+    "max_preconditioned_eigenvalue": 1.0000000000000193,
+    "energy_contraction": 0.665869184388615
+  },
+  {
+    "domain": "cartesian_6x6x6",
+    "grounded": false,
+    "seed": 29,
+    "line": false,
+    "ftm": null,
+    "n_fine": 216,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 53,
+        "rank": 53,
+        "min_energy_increment": -5.86582882520795e-15,
+        "lumped": true
+      },
+      {
+        "n": 53,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -4.198285242760864e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.514171997156872e-16,
+    "min_preconditioned_eigenvalue": 0.33728053439780736,
+    "max_preconditioned_eigenvalue": 0.9999999993345452,
+    "energy_contraction": 0.6627194656021926
+  },
+  {
+    "domain": "cartesian_6x6x6",
+    "grounded": false,
+    "seed": 29,
+    "line": true,
+    "ftm": null,
+    "n_fine": 216,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 53,
+        "rank": 53,
+        "min_energy_increment": -5.86582882520795e-15,
+        "lumped": true
+      },
+      {
+        "n": 53,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -4.198285242760864e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.3996490914196616e-16,
+    "min_preconditioned_eigenvalue": 0.34030360377157964,
+    "max_preconditioned_eigenvalue": 0.9999999744313999,
+    "energy_contraction": 0.6596963962284204
+  },
+  {
+    "domain": "cartesian_6x6x6",
+    "grounded": true,
+    "seed": 7,
+    "line": false,
+    "ftm": null,
+    "n_fine": 216,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -3.6545053004733e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -3.9443662662617575e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.7685164376800223e-16,
+    "min_preconditioned_eigenvalue": 0.33701049051593246,
+    "max_preconditioned_eigenvalue": 1.000000000000024,
+    "energy_contraction": 0.6629895094840675
+  },
+  {
+    "domain": "cartesian_6x6x6",
+    "grounded": true,
+    "seed": 7,
+    "line": true,
+    "ftm": null,
+    "n_fine": 216,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -3.6545053004733e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -3.9443662662617575e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.9889456509759773e-16,
+    "min_preconditioned_eigenvalue": 0.36362972069645333,
+    "max_preconditioned_eigenvalue": 1.0000000000000193,
+    "energy_contraction": 0.6363702793035466
+  },
+  {
+    "domain": "cartesian_6x6x6",
+    "grounded": true,
+    "seed": 11,
+    "line": false,
+    "ftm": null,
+    "n_fine": 216,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -4.025147056497848e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -3.67520284494496e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.7128562270794388e-16,
+    "min_preconditioned_eigenvalue": 0.3031673064844802,
+    "max_preconditioned_eigenvalue": 1.00000000000005,
+    "energy_contraction": 0.6968326935155198
+  },
+  {
+    "domain": "cartesian_6x6x6",
+    "grounded": true,
+    "seed": 11,
+    "line": true,
+    "ftm": null,
+    "n_fine": 216,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 54,
+        "rank": 54,
+        "min_energy_increment": -4.025147056497848e-15,
+        "lumped": true
+      },
+      {
+        "n": 54,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -3.67520284494496e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.8892671817821542e-16,
+    "min_preconditioned_eigenvalue": 0.37487124761188223,
+    "max_preconditioned_eigenvalue": 1.0000000000000238,
+    "energy_contraction": 0.6251287523881177
+  },
+  {
+    "domain": "cartesian_6x6x6",
+    "grounded": true,
+    "seed": 29,
+    "line": false,
+    "ftm": null,
+    "n_fine": 216,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 53,
+        "rank": 53,
+        "min_energy_increment": -7.576244935028133e-15,
+        "lumped": true
+      },
+      {
+        "n": 53,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.2598009725573254e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.9998118744547507e-16,
+    "min_preconditioned_eigenvalue": 0.38286619186615817,
+    "max_preconditioned_eigenvalue": 0.9999999497605627,
+    "energy_contraction": 0.6171338081338418
+  },
+  {
+    "domain": "cartesian_6x6x6",
+    "grounded": true,
+    "seed": 29,
+    "line": true,
+    "ftm": null,
+    "n_fine": 216,
+    "levels": [
+      {
+        "n": 216,
+        "nc": 53,
+        "rank": 53,
+        "min_energy_increment": -7.576244935028133e-15,
+        "lumped": true
+      },
+      {
+        "n": 53,
+        "nc": 16,
+        "rank": 16,
+        "min_energy_increment": -1.2598009725573254e-15,
+        "lumped": true
+      }
+    ],
+    "symmetry_defect": 1.9380468241873893e-16,
+    "min_preconditioned_eigenvalue": 0.38049180989507625,
+    "max_preconditioned_eigenvalue": 0.9999999873095052,
+    "energy_contraction": 0.6195081901049238
+  },
+  {
+    "domain": "active_graph_faulted",
+    "grounded": true,
+    "seed": 7,
+    "line": true,
+    "ftm": 1.0,
+    "n_fine": 288,
+    "high_component_count": 2,
+    "geometric_schedule": [
+      "semi_axis_2_r16.17",
+      "full_2x2x2",
+      "full_2x2x2"
+    ],
+    "levels": [
+      {
+        "n": 288,
+        "nc": 146,
+        "rank": 146,
+        "min_energy_increment": -2.2107275351154706e-11,
+        "lumped": true
+      },
+      {
+        "n": 146,
+        "nc": 36,
+        "rank": 36,
+        "min_energy_increment": -2.957114259538151e-12,
+        "lumped": false
+      },
+      {
+        "n": 36,
+        "nc": 10,
+        "rank": 10,
+        "min_energy_increment": -1.471640269867843e-12,
+        "lumped": false
+      }
+    ],
+    "symmetry_defect": 6.235185793986142e-16,
+    "min_preconditioned_eigenvalue": 0.5164829953932839,
+    "max_preconditioned_eigenvalue": 1.0000000000006237,
+    "energy_contraction": 0.4835170046067161
+  },
+  {
+    "domain": "active_graph_faulted",
+    "grounded": true,
+    "seed": 7,
+    "line": true,
+    "ftm": 0.0001,
+    "n_fine": 288,
+    "high_component_count": 4,
+    "geometric_schedule": [
+      "semi_axis_2_r16.17",
+      "full_2x2x2",
+      "full_2x2x2"
+    ],
+    "levels": [
+      {
+        "n": 288,
+        "nc": 146,
+        "rank": 146,
+        "min_energy_increment": -2.1845221139406553e-11,
+        "lumped": true
+      },
+      {
+        "n": 146,
+        "nc": 48,
+        "rank": 48,
+        "min_energy_increment": -3.6379788075824185e-12,
+        "lumped": false
+      },
+      {
+        "n": 48,
+        "nc": 15,
+        "rank": 15,
+        "min_energy_increment": -2.943194952184286e-12,
+        "lumped": false
+      }
+    ],
+    "symmetry_defect": 6.876166382346427e-16,
+    "min_preconditioned_eigenvalue": 0.7471380340769659,
+    "max_preconditioned_eigenvalue": 1.000000000027705,
+    "energy_contraction": 0.2528619659230341
+  },
+  {
+    "domain": "active_graph_faulted",
+    "grounded": true,
+    "seed": 11,
+    "line": true,
+    "ftm": 1.0,
+    "n_fine": 288,
+    "high_component_count": 2,
+    "geometric_schedule": [
+      "semi_axis_2_r16.43",
+      "full_2x2x2",
+      "full_2x2x2"
+    ],
+    "levels": [
+      {
+        "n": 288,
+        "nc": 147,
+        "rank": 147,
+        "min_energy_increment": -1.90874820972188e-11,
+        "lumped": true
+      },
+      {
+        "n": 147,
+        "nc": 38,
+        "rank": 38,
+        "min_energy_increment": -7.827047652115638e-12,
+        "lumped": true
+      },
+      {
+        "n": 38,
+        "nc": 12,
+        "rank": 12,
+        "min_energy_increment": -9.09777379984957e-13,
+        "lumped": false
+      }
+    ],
+    "symmetry_defect": 6.184843131044185e-16,
+    "min_preconditioned_eigenvalue": 0.44828382000465056,
+    "max_preconditioned_eigenvalue": 1.0000000000016056,
+    "energy_contraction": 0.5517161799953494
+  },
+  {
+    "domain": "active_graph_faulted",
+    "grounded": true,
+    "seed": 11,
+    "line": true,
+    "ftm": 0.0001,
+    "n_fine": 288,
+    "high_component_count": 4,
+    "geometric_schedule": [
+      "semi_axis_2_r16.43",
+      "algebraic_heavy_edge",
+      "algebraic_heavy_edge",
+      "algebraic_heavy_edge"
+    ],
+    "levels": [
+      {
+        "n": 288,
+        "nc": 147,
+        "rank": 147,
+        "min_energy_increment": -1.9103524569475093e-11,
+        "lumped": true
+      },
+      {
+        "n": 147,
+        "nc": 60,
+        "rank": 60,
+        "min_energy_increment": -3.656793485967534e-12,
+        "lumped": false
+      },
+      {
+        "n": 60,
+        "nc": 23,
+        "rank": 23,
+        "min_energy_increment": -9.694178098269e-13,
+        "lumped": false
+      },
+      {
+        "n": 23,
+        "nc": 6,
+        "rank": 6,
+        "min_energy_increment": -4.547473508864661e-13,
+        "lumped": false
+      }
+    ],
+    "symmetry_defect": 6.533445621073174e-16,
+    "min_preconditioned_eigenvalue": 0.8023287281597691,
+    "max_preconditioned_eigenvalue": 1.000000000000108,
+    "energy_contraction": 0.19767127184023092
+  }
+]

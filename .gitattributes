@@ -1,2 +1,2 @@
-# Preserve archived byte-level SHA-256 identities on every platform.
-* -text
+* text=auto eol=lf
+*.npz binary

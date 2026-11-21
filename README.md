@@ -1,59 +1,40 @@
 # ML-CPMG
 
-Research implementation and numerical evidence accompanying manuscript **v18** on persistent-component multigrid for high-contrast Darcy pressure equations. The solver supports Cartesian TPFA operators and positive-transmissibility active graphs with non-neighbor connections (NNCs).
-
-The code is released under the [MIT license](LICENSE). Third-party reservoir datasets and Python dependencies retain their own terms; they are not relicensed by this repository.
+The `main` branch accompanies manuscript **v20** on multilevel persistence component-preserving multigrid for heterogeneous Darcy pressure systems. The implementation supports Cartesian TPFA and faulted corner-point active graphs with non-neighbour connections. The v18.1 tag preserves the earlier Brugge experiments. [v18.1 source](https://github.com/tgeat/ML-CPMG/tree/v18.1)
 
 ## Quick start
 
-The archived environment used Python 3.13.9. From the repository root:
+The archived experiments used Python 3.13.9. Create and activate a Python 3.13 virtual environment, then run these commands from the repository root.
 
 ```sh
-python -m venv .venv
-# Linux/macOS:
-source .venv/bin/activate
-# Windows PowerShell instead:
-# .venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-python reproduce.py verify
-python reproduce.py smoke
-python reproduce.py algebra
-python reproduce.py tables
-python reproduce.py figures
+python run.py smoke
+python run.py exp6
+python run.py tables
+python run.py figures
 ```
 
-`smoke` solves manufactured Cartesian Neumann and grounded NNC graph problems. `algebra` checks twelve small hierarchies. `tables` regenerates seven numerical tables from archived measurements and copies the fixed protocol-settings table (`configuration.tex`), providing all eight manuscript tables. `figures` regenerates Figures 1–6 and 10. These commands need no reservoir downloads. Outputs are written to `outputs/`, leaving the archived evidence unchanged. Matching figure typography requires locally installed Arial and Times New Roman; fonts are not distributed here.
+The smoke tests cover a Cartesian Neumann system and a grounded active graph with a non-neighbour connection. Experiment 6 runs 16 checks for prolongator rank, symmetry and V-cycle contraction. The table command generates all eight manuscript tables under `outputs/tables/`. The figure command generates plots under `outputs/figures/` and skips the SPE10 and OLYMPUS spatial plates if their display arrays are unavailable. These scripts regenerate numerical plots and schematics. The final v20 manuscript uses separate figure typesetting. Matching the plotting fonts requires locally installed Arial and Times New Roman.
 
-To run a fresh, conservation-checked 64³ synthetic pressure solve:
+Run a fresh synthetic pressure solve with the conservation checks enabled.
 
 ```sh
-python reproduce.py benchmark --suite synthetic --case Synthetic-smooth_gaussian --method ML-CPMG --repeats 1
+python run.py exp2 --case Synthetic-smooth_gaussian --method ML-CPMG --repeats 1
 ```
 
-Omit `--case` to run all six synthetic fields. Omit `--method` to run the primary comparison methods. The default is three repetitions. Reservoir reruns and Figures 7–9 require external inputs described in [DATASETS.md](DATASETS.md); cloning this repository alone does not reproduce those solves or spatial plots.
+## Experiments and archived results
 
-## Implementation and evidence
-
-| Location | Purpose |
+| Command | Scope |
 | --- | --- |
-| `reproduce.py` | Portable entry points and separate output directories |
-| `workspace/results/paper_revision_v16/code/ml_cpmg_v16.py` | Solver used for the v18 numerical results |
-| `workspace/multilevel_continuous_media.py` | Continuous synthetic fields |
-| `workspace/results/paper_revision_v16/code/benchmark.py` | Common solver, timing and physical-conservation protocol |
-| `workspace/results/paper_revision_v16/data/` | 252 timed repetitions, calibration, accuracy and algebraic evidence |
-| `workspace/results/paper_revision_v16/build/summarize.py` | Table generation |
-| `workspace/results/paper_revision_v18_fig10_median/code/figures.py` | Final v18 plotting source |
-| `provenance.json` | Software versions, original timing environment and SHA-256 hashes |
-| `external_inputs.json` | Exact identities of omitted reservoir inputs |
+| `python run.py exp1` | SPE10 parameter calibration |
+| `python run.py exp2` | Six synthetic permeability fields |
+| `python run.py exp3` | SPE10 static five-spot pressure |
+| `python run.py exp4` | SPE10 pressure at three prescribed mobility states |
+| `python run.py exp5` | OLYMPUS_1 pressure in three fault configurations |
+| `python run.py exp6` | Small-system algebraic and spectral checks |
 
-Historical directory names are retained so the archived implementation and its relative imports remain unchanged. Use `reproduce.py` rather than the original benchmark command-line driver, whose CPU selection and output paths were specific to the original machine.
+The solver is under `src/ml_cpmg/`. Benchmark, table and plotting scripts are under `experiments/`. Archived records under `data/results/` cover 252 timed solves, 16 algebraic checks, 60 Cartesian interval certifications and 24 direct-solution comparisons on OLYMPUS_1. The timing protocols use one logical CPU where affinity is available and limit numerical libraries to one thread. Rerun timings depend on the machine. SPE10 and OLYMPUS experiments operate on prescribed pressure systems, including frozen waterflood states.
 
-## Numerical scope
+Use `python run.py --help` for the full command list. Generated outputs go under `outputs/`. Reservoir reruns and fresh accuracy certification require local inputs or checkpoints. [Data sources and instructions](DATASETS.md)
 
-The archived results used one pinned CPU and one BLAS thread, three sequential repetitions in permuted method order, and a physical-conservation gate of 10⁻⁹. The wrapper preserves the solver and acceptance criterion and chooses an available CPU; use `--cpu` to specify one. New wall times depend on hardware and software. Regenerating tables from archived JSON is distinct from rerunning numerical experiments.
-
-SPE10 and Brugge comparisons solve pressure equations at prescribed, frozen waterflood states. They are not independently advanced ML-CPMG transport trajectories. No field-production data are included.
-
-## Citation
-
-This repository accompanies the authors' manuscript v18. Until publication metadata are available, cite the repository URL and the specific Git commit used. No journal acceptance, DOI or archived dataset DOI is implied.
+The source code is provided under the [MIT license](LICENSE). Cite the manuscript and the Git commit used. The reservoir inputs retain their original terms and attribution. [Dataset attribution](DATASETS.md)

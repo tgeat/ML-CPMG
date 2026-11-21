@@ -1,0 +1,1062 @@
+[
+  {
+    "case": "SPE10-static",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 1.836984359649537e-11,
+    "flux_relative_upper": 1.8369843516152844e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.0836695357048186e-09,
+      "norm_upper": 1.0837321407551298e-09,
+      "max_abs_upper": 1.325862775373918e-10,
+      "rho_upper": 1.0513746085855183e-10,
+      "eta_upper": 1.3258627753739184e-10
+    }
+  },
+  {
+    "case": "SPE10-static",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 1.442586610223819e-11,
+    "flux_relative_upper": 1.4425866144321533e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.1156060997699067e-09,
+      "norm_upper": 1.1156713138017301e-09,
+      "max_abs_upper": 9.064688574511752e-11,
+      "rho_upper": 1.0823601577794514e-10,
+      "eta_upper": 9.064688574511753e-11
+    }
+  },
+  {
+    "case": "SPE10-static",
+    "method": "Single-median",
+    "pressure_relative_upper": 1.757869730865054e-11,
+    "flux_relative_upper": 1.757869715944193e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.0569410192399104e-09,
+      "norm_upper": 1.0570074015105303e-09,
+      "max_abs_upper": 7.321857615951127e-11,
+      "rho_upper": 1.0254478032374156e-10,
+      "eta_upper": 7.321857615951129e-11
+    }
+  },
+  {
+    "case": "SPE10-static",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 1.0479563286166276e-11,
+    "flux_relative_upper": 1.047956290101372e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 5.580877268051838e-10,
+      "norm_upper": 5.58151703648196e-10,
+      "max_abs_upper": 4.476844170195482e-11,
+      "rho_upper": 5.4148668927136325e-11,
+      "eta_upper": 4.476844170195483e-11
+    }
+  },
+  {
+    "case": "SPE10-static",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 2.1626930470958974e-12,
+    "flux_relative_upper": 2.162693181278898e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 4.70381384789807e-10,
+      "norm_upper": 4.70406065979725e-10,
+      "max_abs_upper": 2.2056796204232833e-10,
+      "rho_upper": 4.563609169615244e-11,
+      "eta_upper": 2.2056796204232835e-10
+    }
+  },
+  {
+    "case": "SPE10-static",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 1.2785175108375218e-11,
+    "flux_relative_upper": 1.2785175323688332e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 8.614174420775332e-10,
+      "norm_upper": 8.614620440739817e-10,
+      "max_abs_upper": 1.5198548960998577e-10,
+      "rho_upper": 8.357409412702942e-11,
+      "eta_upper": 1.519854896099858e-10
+    }
+  },
+  {
+    "case": "SPE10-static",
+    "complete_case": true
+  },
+  {
+    "case": "SPE10-0d",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 2.392119946150544e-11,
+    "flux_relative_upper": 2.3921199672858047e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.293931532026924e-07,
+      "norm_upper": 3.2939315324372427e-07,
+      "max_abs_upper": 4.238434935935246e-08,
+      "rho_upper": 1.0817738878032099e-10,
+      "eta_upper": 1.2833257542572024e-10
+    }
+  },
+  {
+    "case": "SPE10-0d",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 2.4671743588328474e-11,
+    "flux_relative_upper": 2.4671743661690024e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.360822446229586e-07,
+      "norm_upper": 3.360822446648238e-07,
+      "max_abs_upper": 1.6544834474931063e-08,
+      "rho_upper": 1.1037418138551512e-10,
+      "eta_upper": 5.0094934810922995e-11
+    }
+  },
+  {
+    "case": "SPE10-0d",
+    "method": "Single-median",
+    "pressure_relative_upper": 2.4103331178541432e-11,
+    "flux_relative_upper": 2.4103331090844455e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.331982786687368e-07,
+      "norm_upper": 3.331982787102427e-07,
+      "max_abs_upper": 3.7331255834316406e-08,
+      "rho_upper": 1.0942704601483214e-10,
+      "eta_upper": 1.1303267072653872e-10
+    }
+  },
+  {
+    "case": "SPE10-0d",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 1.8307281066414373e-11,
+    "flux_relative_upper": 1.8307280756423065e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.3237066457191425e-07,
+      "norm_upper": 2.3237066460086025e-07,
+      "max_abs_upper": 2.601018011526009e-08,
+      "rho_upper": 7.631382582827792e-11,
+      "eta_upper": 7.875438580353335e-11
+    }
+  },
+  {
+    "case": "SPE10-0d",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 7.826482301428294e-12,
+    "flux_relative_upper": 7.826481720756464e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.0824835416742187e-07,
+      "norm_upper": 2.0824835419336302e-07,
+      "max_abs_upper": 1.3539901125273623e-07,
+      "rho_upper": 6.839171656299941e-11,
+      "eta_upper": 4.0996509529585443e-10
+    }
+  },
+  {
+    "case": "SPE10-0d",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 2.2480959181615272e-11,
+    "flux_relative_upper": 2.2480959340546162e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.5416344898621434e-07,
+      "norm_upper": 2.541634490178751e-07,
+      "max_abs_upper": 4.336838448341115e-08,
+      "rho_upper": 8.347088567991602e-11,
+      "eta_upper": 1.313120658199017e-10
+    }
+  },
+  {
+    "case": "SPE10-0d",
+    "complete_case": true
+  },
+  {
+    "case": "SPE10-520.04d",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 7.389916868210873e-11,
+    "flux_relative_upper": 7.389916874073097e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 4.2358321284866893e-07,
+      "norm_upper": 4.235832129014339e-07,
+      "max_abs_upper": 7.253695652980946e-08,
+      "rho_upper": 1.391107418342458e-10,
+      "eta_upper": 2.1962952329619485e-10
+    }
+  },
+  {
+    "case": "SPE10-520.04d",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 7.525508498894555e-11,
+    "flux_relative_upper": 7.525508529652988e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 4.3835515216430634e-07,
+      "norm_upper": 4.3835515221891154e-07,
+      "max_abs_upper": 4.033886732641747e-08,
+      "rho_upper": 1.439620564619172e-10,
+      "eta_upper": 1.2213920496607293e-10
+    }
+  },
+  {
+    "case": "SPE10-520.04d",
+    "method": "Single-median",
+    "pressure_relative_upper": 7.6116634967253e-11,
+    "flux_relative_upper": 7.611663504704797e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 4.1064489079336164e-07,
+      "norm_upper": 4.1064489084451496e-07,
+      "max_abs_upper": 4.9433824352271276e-08,
+      "rho_upper": 1.3486161315159616e-10,
+      "eta_upper": 1.496771824543724e-10
+    }
+  },
+  {
+    "case": "SPE10-520.04d",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 6.007780024783143e-11,
+    "flux_relative_upper": 6.007780043923696e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.9621694731931669e-07,
+      "norm_upper": 1.9621694734375907e-07,
+      "max_abs_upper": 1.5388855773022097e-08,
+      "rho_upper": 6.444043171227636e-11,
+      "eta_upper": 4.659482861145095e-11
+    }
+  },
+  {
+    "case": "SPE10-520.04d",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 6.572079078888543e-11,
+    "flux_relative_upper": 6.572079138497706e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.008640079484288e-07,
+      "norm_upper": 3.00864007985907e-07,
+      "max_abs_upper": 8.3200963299474e-08,
+      "rho_upper": 9.880801237485087e-11,
+      "eta_upper": 2.5191831559321256e-10
+    }
+  },
+  {
+    "case": "SPE10-520.04d",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 7.092355254463172e-11,
+    "flux_relative_upper": 7.092355242109543e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.4936862671492593e-07,
+      "norm_upper": 3.4936862675844617e-07,
+      "max_abs_upper": 6.848124190157872e-08,
+      "rho_upper": 1.1473761792653577e-10,
+      "eta_upper": 2.0734951165747026e-10
+    }
+  },
+  {
+    "case": "SPE10-520.04d",
+    "complete_case": true
+  },
+  {
+    "case": "SPE10-2000d",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 9.578060902434147e-11,
+    "flux_relative_upper": 9.578060894943364e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.6345821813162844e-07,
+      "norm_upper": 3.6345821817690383e-07,
+      "max_abs_upper": 2.7809592132427422e-08,
+      "rho_upper": 1.1936483981509338e-10,
+      "eta_upper": 8.42026982562552e-11
+    }
+  },
+  {
+    "case": "SPE10-2000d",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 9.175383032700495e-11,
+    "flux_relative_upper": 9.175383052151338e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.7978025975925764e-07,
+      "norm_upper": 3.797802598065662e-07,
+      "max_abs_upper": 4.68749074384977e-08,
+      "rho_upper": 1.2472523005293815e-10,
+      "eta_upper": 1.4192921881192626e-10
+    }
+  },
+  {
+    "case": "SPE10-2000d",
+    "method": "Single-median",
+    "pressure_relative_upper": 9.581152242177836e-11,
+    "flux_relative_upper": 9.581152233450084e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.692182710913496e-07,
+      "norm_upper": 3.6921827113734247e-07,
+      "max_abs_upper": 3.7244196901443004e-08,
+      "rho_upper": 1.212565229978205e-10,
+      "eta_upper": 1.1276907113757881e-10
+    }
+  },
+  {
+    "case": "SPE10-2000d",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 9.203800709009679e-11,
+    "flux_relative_upper": 9.203800737981162e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.07935708284995e-07,
+      "norm_upper": 3.07935708323354e-07,
+      "max_abs_upper": 2.7474776004500535e-08,
+      "rho_upper": 1.0113045918107182e-10,
+      "eta_upper": 8.318893216947101e-11
+    }
+  },
+  {
+    "case": "SPE10-2000d",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 7.639129655312919e-11,
+    "flux_relative_upper": 7.639129645604185e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.742443013941305e-07,
+      "norm_upper": 1.7424430141583583e-07,
+      "max_abs_upper": 5.266729113469291e-08,
+      "rho_upper": 5.722430278649221e-11,
+      "eta_upper": 1.5946756796255815e-10
+    }
+  },
+  {
+    "case": "SPE10-2000d",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 9.706627370263674e-11,
+    "flux_relative_upper": 9.706627387944171e-11,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.2267305428259426e-07,
+      "norm_upper": 3.226730543227891e-07,
+      "max_abs_upper": 4.164623722912753e-08,
+      "rho_upper": 1.0597041287188634e-10,
+      "eta_upper": 1.260976978811431e-10
+    }
+  },
+  {
+    "case": "SPE10-2000d",
+    "complete_case": true
+  },
+  {
+    "case": "OLYMPUS-open",
+    "method": "ML-CPMG",
+    "relative_energy_difference": 4.9659233683017045e-11,
+    "true_residual": 9.547435979767733e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-open",
+    "method": "Min-threshold",
+    "relative_energy_difference": 6.558606560867797e-11,
+    "true_residual": 8.099004286910756e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-open",
+    "method": "Single-median",
+    "relative_energy_difference": 7.671862970189061e-11,
+    "true_residual": 9.141122751157224e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-open",
+    "method": "SA-0",
+    "relative_energy_difference": 3.906165901767181e-11,
+    "true_residual": 8.896408526017585e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-open",
+    "method": "SA-0.04",
+    "relative_energy_difference": 1.2812982978896631e-11,
+    "true_residual": 5.052240578764072e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-open",
+    "method": "SA-0.1",
+    "relative_energy_difference": 2.0573558482526603e-11,
+    "true_residual": 7.76714715589079e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-open",
+    "method": "RS-0.25",
+    "relative_energy_difference": 2.045830598167226e-11,
+    "true_residual": 6.297391142735514e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-open",
+    "method": "Algebraic-only",
+    "relative_energy_difference": 1.972746961807107e-11,
+    "true_residual": 4.5707372559676423e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-open",
+    "complete_case": true
+  },
+  {
+    "case": "OLYMPUS-baffle",
+    "method": "ML-CPMG",
+    "relative_energy_difference": 2.457048560712216e-11,
+    "true_residual": 6.230367913021386e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-baffle",
+    "method": "Min-threshold",
+    "relative_energy_difference": 4.81334002803201e-11,
+    "true_residual": 8.774694229263634e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-baffle",
+    "method": "Single-median",
+    "relative_energy_difference": 4.3522744349284965e-11,
+    "true_residual": 8.165378767616106e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-baffle",
+    "method": "SA-0",
+    "relative_energy_difference": 4.1229970037426535e-11,
+    "true_residual": 1.0003122184641963e-10,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-baffle",
+    "method": "SA-0.04",
+    "relative_energy_difference": 1.8672299250018288e-11,
+    "true_residual": 8.150552048550013e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-baffle",
+    "method": "SA-0.1",
+    "relative_energy_difference": 7.464528600795602e-12,
+    "true_residual": 2.93571318319618e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-baffle",
+    "method": "RS-0.25",
+    "relative_energy_difference": 2.1080160808522134e-11,
+    "true_residual": 9.724403406386779e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-baffle",
+    "method": "Algebraic-only",
+    "relative_energy_difference": 2.5383529006676713e-11,
+    "true_residual": 8.542682675226515e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-baffle",
+    "complete_case": true
+  },
+  {
+    "case": "OLYMPUS-sealing-wet",
+    "method": "ML-CPMG",
+    "relative_energy_difference": 3.296892049619381e-11,
+    "true_residual": 8.805067967602409e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-sealing-wet",
+    "method": "Min-threshold",
+    "relative_energy_difference": 3.6243996630811853e-11,
+    "true_residual": 7.186344501881495e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-sealing-wet",
+    "method": "Single-median",
+    "relative_energy_difference": 3.3389999909350886e-11,
+    "true_residual": 8.26688736559241e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-sealing-wet",
+    "method": "SA-0",
+    "relative_energy_difference": 3.540776335813372e-11,
+    "true_residual": 9.266946815618317e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-sealing-wet",
+    "method": "SA-0.04",
+    "relative_energy_difference": 1.8874707600366808e-11,
+    "true_residual": 9.91540319639202e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-sealing-wet",
+    "method": "SA-0.1",
+    "relative_energy_difference": 2.3731010759980708e-11,
+    "true_residual": 5.0721404541935446e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-sealing-wet",
+    "method": "RS-0.25",
+    "relative_energy_difference": 1.7089207725287413e-11,
+    "true_residual": 4.5127549693205365e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-sealing-wet",
+    "method": "Algebraic-only",
+    "relative_energy_difference": 1.7078710487217943e-11,
+    "true_residual": 4.534404644454928e-11,
+    "comparison": "direct SuperLU (MMD_AT_PLUS_A); numerical difference, not interval bound"
+  },
+  {
+    "case": "OLYMPUS-sealing-wet",
+    "complete_case": true
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 1.4047702233513385e-13,
+    "flux_relative_upper": 1.4052496273662952e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.417269682811063e-22,
+      "norm_upper": 2.438366698281376e-15,
+      "max_abs_upper": 1.0758330322858611e-16,
+      "rho_upper": 1.1034788015355547e-13,
+      "eta_upper": 4.4066121002428877e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 1.406311427951139e-13,
+    "flux_relative_upper": 1.4063819210971308e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.300480148635771e-21,
+      "norm_upper": 2.437365059688304e-15,
+      "max_abs_upper": 1.129487043625131e-16,
+      "rho_upper": 1.1030255116530142e-13,
+      "eta_upper": 4.626378930688538e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "method": "Single-median",
+    "pressure_relative_upper": 1.4057865251022275e-13,
+    "flux_relative_upper": 1.4058964470313818e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.2829284375530239e-21,
+      "norm_upper": 2.438395697389832e-15,
+      "max_abs_upper": 1.061936193397842e-16,
+      "rho_upper": 1.1034919250339471e-13,
+      "eta_upper": 4.349690648157561e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 1.4056046702478077e-13,
+    "flux_relative_upper": 1.4057391234729373e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.2880662449332522e-22,
+      "norm_upper": 2.4356432940776706e-15,
+      "max_abs_upper": 1.0758330322858611e-16,
+      "rho_upper": 1.1022463294841116e-13,
+      "eta_upper": 4.4066121002428877e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 1.405920199565047e-13,
+    "flux_relative_upper": 1.406009004884095e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.8652584343608645e-22,
+      "norm_upper": 2.4384812793269848e-15,
+      "max_abs_upper": 1.1148398429469858e-16,
+      "rho_upper": 1.1035306549975366e-13,
+      "eta_upper": 4.566383996710855e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 1.405743493639e-13,
+    "flux_relative_upper": 1.405851682698323e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.6164623867829228e-22,
+      "norm_upper": 2.4348817903583664e-15,
+      "max_abs_upper": 1.0758330322858611e-16,
+      "rho_upper": 1.1019017122400625e-13,
+      "eta_upper": 4.4066121002428877e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_nested_lobes",
+    "complete_case": true
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 1.44757778766068e-13,
+    "flux_relative_upper": 1.4480450037326755e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 8.853308485531492e-21,
+      "norm_upper": 3.601408931584964e-15,
+      "max_abs_upper": 2.7167027641067103e-16,
+      "rho_upper": 1.6298116335274152e-13,
+      "eta_upper": 1.1127614521781087e-12
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 1.4511069122519925e-13,
+    "flux_relative_upper": 1.451136414799705e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.1812781004627458e-22,
+      "norm_upper": 3.586412075984835e-15,
+      "max_abs_upper": 2.756852695406487e-16,
+      "rho_upper": 1.623024831420867e-13,
+      "eta_upper": 1.1292068640384974e-12
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "method": "Single-median",
+    "pressure_relative_upper": 1.45054033363486e-13,
+    "flux_relative_upper": 1.4505741548055547e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 9.229300802885438e-22,
+      "norm_upper": 3.581393912134265e-15,
+      "max_abs_upper": 2.5832965893116986e-16,
+      "rho_upper": 1.6207538697006146e-13,
+      "eta_upper": 1.058118282982072e-12
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 1.4506012267807798e-13,
+    "flux_relative_upper": 1.4506367853559934e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 0.0,
+      "norm_upper": 3.59596624519896e-15,
+      "max_abs_upper": 2.7568526954064877e-16,
+      "rho_upper": 1.6273485548384736e-13,
+      "eta_upper": 1.1292068640384976e-12
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 1.449663073474024e-13,
+    "flux_relative_upper": 1.449711557464506e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 4.6916806046057196e-21,
+      "norm_upper": 3.5977547921713e-15,
+      "max_abs_upper": 2.652348317095678e-16,
+      "rho_upper": 1.6281579588017572e-13,
+      "eta_upper": 1.08640187068239e-12
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 1.4542063232462748e-13,
+    "flux_relative_upper": 1.4542250042374748e-13,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.6178814384476136e-20,
+      "norm_upper": 3.5942446889535095e-15,
+      "max_abs_upper": 2.756852695406487e-16,
+      "rho_upper": 1.626569467417437e-13,
+      "eta_upper": 1.1292068640384974e-12
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_braided_channels",
+    "complete_case": true
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 5.8005077227976e-14,
+    "flux_relative_upper": 5.805106066968806e-14,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 8.733354297451394e-21,
+      "norm_upper": 1.045370930278052e-15,
+      "max_abs_upper": 2.032879073410321e-17,
+      "rho_upper": 4.7308087914602064e-14,
+      "eta_upper": 8.326672684688677e-14
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 5.808224072169397e-14,
+    "flux_relative_upper": 5.809522368680267e-14,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.4124952316025877e-19,
+      "norm_upper": 1.0449153252656512e-15,
+      "max_abs_upper": 2.039705594113957e-17,
+      "rho_upper": 4.728746958539784e-14,
+      "eta_upper": 8.354634113490769e-14
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "method": "Single-median",
+    "pressure_relative_upper": 5.807532503255507e-14,
+    "flux_relative_upper": 5.808888967206388e-14,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 5.25585804393182e-20,
+      "norm_upper": 1.0446524348245781e-15,
+      "max_abs_upper": 2.0247475571166798e-17,
+      "rho_upper": 4.727557252212779e-14,
+      "eta_upper": 8.293365993949922e-14
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 5.808293799912033e-14,
+    "flux_relative_upper": 5.809536647981495e-14,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.7042327640790296e-19,
+      "norm_upper": 1.0454938493134658e-15,
+      "max_abs_upper": 2.032879073410321e-17,
+      "rho_upper": 4.731365059514473e-14,
+      "eta_upper": 8.326672684688677e-14
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 5.807898248184392e-14,
+    "flux_relative_upper": 5.80921885707297e-14,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.4553909074835634e-20,
+      "norm_upper": 1.0447341122495707e-15,
+      "max_abs_upper": 2.032879073410321e-17,
+      "rho_upper": 4.72792688204371e-14,
+      "eta_upper": 8.326672684688677e-14
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 5.807173195329973e-14,
+    "flux_relative_upper": 5.808617750230703e-14,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.650240267293463e-20,
+      "norm_upper": 1.0451703064235825e-15,
+      "max_abs_upper": 2.0310863010224278e-17,
+      "rho_upper": 4.729900871537228e-14,
+      "eta_upper": 8.319329488987866e-14
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_layered_barriers",
+    "complete_case": true
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 1.7792096629168897e-09,
+    "flux_relative_upper": 1.7792097105867966e-09,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.6731181943570003e-12,
+      "norm_upper": 1.6770260089998061e-12,
+      "max_abs_upper": 2.219393612196627e-13,
+      "rho_upper": 7.589353364526284e-11,
+      "eta_upper": 9.090636235557385e-10
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 1.780039980325958e-09,
+    "flux_relative_upper": 1.7800399801378092e-09,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 3.806946156915992e-23,
+      "norm_upper": 2.9429703377488613e-15,
+      "max_abs_upper": 2.1048839985461918e-16,
+      "rho_upper": 1.3318363409173552e-13,
+      "eta_upper": 8.621604858045203e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "method": "Single-median",
+    "pressure_relative_upper": 1.7800399766368378e-09,
+    "flux_relative_upper": 1.780039976531231e-09,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.4976808612770214e-21,
+      "norm_upper": 2.9422444938598533e-15,
+      "max_abs_upper": 2.007628784948551e-16,
+      "rho_upper": 1.3315078614703102e-13,
+      "eta_upper": 8.223247503149266e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 1.780039986033767e-09,
+    "flux_relative_upper": 1.780039986134202e-09,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.194055104354988e-21,
+      "norm_upper": 2.946864283921744e-15,
+      "max_abs_upper": 2.104883998546192e-16,
+      "rho_upper": 1.33359853979381e-13,
+      "eta_upper": 8.621604858045204e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 1.7800400007805107e-09,
+    "flux_relative_upper": 1.7800400009780495e-09,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.8076842331738897e-21,
+      "norm_upper": 2.949121580255308e-15,
+      "max_abs_upper": 1.9712114533204889e-16,
+      "rho_upper": 1.334620075502376e-13,
+      "eta_upper": 8.074082112800723e-13
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 1.780370777846339e-09,
+    "flux_relative_upper": 1.7803707780257603e-09,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.1373534620264158e-12,
+      "norm_upper": 1.1409805270408442e-12,
+      "max_abs_upper": 1.509509735410982e-13,
+      "rho_upper": 5.163488434458385e-11,
+      "eta_upper": 6.182951876243383e-10
+    }
+  },
+  {
+    "case": "Synthetic-multilevel_anisotropic_streaks",
+    "complete_case": true
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 5.5897894255342284e-12,
+    "flux_relative_upper": 5.589789338307998e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.6077535394943445e-12,
+      "norm_upper": 1.6088181467575376e-12,
+      "max_abs_upper": 1.2712563206979113e-13,
+      "rho_upper": 7.280679816222618e-11,
+      "eta_upper": 5.207065889578646e-10
+    }
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 3.657247654330657e-12,
+    "flux_relative_upper": 3.657247772640078e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.0162592493524476e-12,
+      "norm_upper": 1.017292824197749e-12,
+      "max_abs_upper": 5.913288361720788e-14,
+      "rho_upper": 4.603741788499908e-11,
+      "eta_upper": 2.422082912960835e-10
+    }
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "method": "Single-median",
+    "pressure_relative_upper": 6.804332164339271e-12,
+    "flux_relative_upper": 6.804332196907701e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.9560270764260392e-12,
+      "norm_upper": 1.9570739232544325e-12,
+      "max_abs_upper": 1.0541508892957387e-13,
+      "rho_upper": 8.856705551594935e-11,
+      "eta_upper": 4.317802042555346e-10
+    }
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 8.546798401662319e-12,
+    "flux_relative_upper": 8.546798404408119e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.2081146550371598e-12,
+      "norm_upper": 2.2091085437076008e-12,
+      "max_abs_upper": 2.0738956571212408e-13,
+      "rho_upper": 9.997284042595298e-11,
+      "eta_upper": 8.494676611568604e-10
+    }
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 3.2696139963461778e-12,
+    "flux_relative_upper": 3.269613989633799e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 8.64377471772204e-13,
+      "norm_upper": 8.653646323993879e-13,
+      "max_abs_upper": 7.104878427379822e-14,
+      "rho_upper": 3.916193278576101e-11,
+      "eta_upper": 2.910158203854776e-10
+    }
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 9.44349752983616e-12,
+    "flux_relative_upper": 9.443497596681857e-12,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.0680492735487577e-12,
+      "norm_upper": 1.0689393623228678e-12,
+      "max_abs_upper": 8.33182606233313e-14,
+      "rho_upper": 4.8374673394350285e-11,
+      "eta_upper": 3.4127159551316504e-10
+    }
+  },
+  {
+    "case": "Synthetic-unplanted_random",
+    "complete_case": true
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "method": "ML-CPMG",
+    "pressure_relative_upper": 6.931363240945311e-10,
+    "flux_relative_upper": 6.931363710902238e-10,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.700570064448579e-12,
+      "norm_upper": 1.7017341741192288e-12,
+      "max_abs_upper": 2.0574717588141695e-13,
+      "rho_upper": 7.701169755610284e-11,
+      "eta_upper": 8.427404324102839e-10
+    }
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "method": "Min-threshold",
+    "pressure_relative_upper": 6.936070528651238e-10,
+    "flux_relative_upper": 6.936070531187925e-10,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.436235555158841e-12,
+      "norm_upper": 1.4374127176044738e-12,
+      "max_abs_upper": 1.261670923502717e-13,
+      "rho_upper": 6.504987391978871e-11,
+      "eta_upper": 5.16780410266713e-10
+    }
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "method": "Single-median",
+    "pressure_relative_upper": 6.940335327104307e-10,
+    "flux_relative_upper": 6.940335328796677e-10,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.4742354475529146e-12,
+      "norm_upper": 1.4755263847303669e-12,
+      "max_abs_upper": 1.0430164990472305e-13,
+      "rho_upper": 6.677470159857258e-11,
+      "eta_upper": 4.2721955800974565e-10
+    }
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "method": "Algebraic-only",
+    "pressure_relative_upper": 6.94414594333754e-10,
+    "flux_relative_upper": 6.944145943100697e-10,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.21472475829822e-12,
+      "norm_upper": 2.2158176442340168e-12,
+      "max_abs_upper": 2.3435480138781545e-13,
+      "rho_upper": 1.0027645965654241e-10,
+      "eta_upper": 9.599172664844923e-10
+    }
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "method": "SA-0.04",
+    "pressure_relative_upper": 6.948850124458972e-10,
+    "flux_relative_upper": 6.948850126771632e-10,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 1.420025549631004e-12,
+      "norm_upper": 1.4213728357385688e-12,
+      "max_abs_upper": 1.518292702484151e-13,
+      "rho_upper": 6.432399172862215e-11,
+      "eta_upper": 6.218926909375083e-10
+    }
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "method": "RS-0.25",
+    "pressure_relative_upper": 6.935314560387989e-10,
+    "flux_relative_upper": 6.93531456062813e-10,
+    "accuracy_pass": true,
+    "pressure_true_residual": {
+      "norm_lower": 2.411130576316576e-13,
+      "norm_upper": 2.4220841910944015e-13,
+      "max_abs_upper": 1.705783395246758e-14,
+      "rho_upper": 1.0961101799376055e-11,
+      "eta_upper": 6.986888786930723e-11
+    }
+  },
+  {
+    "case": "Synthetic-smooth_gaussian",
+    "complete_case": true
+  }
+]
